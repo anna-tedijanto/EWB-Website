@@ -1,0 +1,28 @@
+Design guidlines:
+
+Colors:
+EWB red: #b31b1b
+EWB blue: #1058a2
+EWB white: #f9f9f9
+
+Font:
+For general usage: Proxima Nova
+For "ENGINEERS WITHOUT BORDERS" title on the about us page: Catamaran
+
+Guidlines by page: 
+
+	About us:
+		Top image header similar to: http://www.cornellthetatau.com/
+		About us section similar to the about us section of: http://www.cuauv.org/about.php
+
+	Members: 
+		Interactive grid structure similar to: https://igem.engineering.cornell.edu/
+
+	Subteam:
+		Similar to EWH without photos of members: https://ewh.engineering.cornell.edu/team.html
+
+	Sponsors:
+		Similar to the "We've been great places" section of: http://www.cornellthetatau.com/
+
+	Contact us:
+		No guidlines as of now
