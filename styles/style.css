@@ -1,0 +1,197 @@
+/* Add a black background color to the top navigation */
+body{
+    margin: 0;
+}
+
+h1 {
+    text-align:center;
+    font-family: Proxima Nova;
+}
+
+p {
+    text-align:left;
+    font-family: Proxima Nova;
+}
+
+.topnav {
+    /*background-image: url("images/bar.jpg");*/
+    background-color: #f9f9f9;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    padding: 0px;
+    top: 0px;
+    z-index: 500;
+}
+
+.topnav .left {
+    background-color: #f9f9f9;
+    float: left;
+    max-width: 40%;
+    display: inline-block;
+}
+
+.topnav .left img {
+    float: left;
+    display: inline-block;
+    padding-left: 2.25em;
+    height: 5em;
+    width: 5em;
+}
+.topnav .left a {
+    float: left;
+    display: inline-block;
+    padding-left: 0.25em;
+    color: #1058a2;
+    font-size: 20px;
+    padding-top: .75em;
+    text-decoration: none;
+    font-family: Proxima Nova;
+    text-align: left;
+    
+}
+.topnav .left a em{
+    color: #b31b1b;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #1058a2;
+    text-align: center;
+    padding-top: 1.4em;
+    margin-right: 2.5em;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Proxima Nova;
+}
+
+/* Change the color of links on hover */
+.topnav .right a:hover {
+    border-bottom: 2px solid #b31b1b;
+    }
+
+/* Add a color to the active/current link */
+.topnav .right a:active {
+    border-bottom: 2px solid #b31b1b;
+    
+}
+
+#content {
+    padding-top: 2.4em;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+#header{
+    width: 100%;
+}
+
+#header h1{
+    font-size: 50px;
+    /*position: absolute;*/
+    left: 0;
+    width: 100%;
+    color: #f9f9f9;
+    font-family: Catamaran;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background: url("images/sky2.jpg");
+    background-position: center center;
+    background-size: cover;
+
+}
+
+#content #left{
+    width: 24em;
+    float: left;
+    padding-left: 15%;
+}
+
+#content #left h1{
+    font-size: 50px;
+    color: #1058a2;
+    text-align: left;
+}
+
+#content #left p{
+    text-align: justify;
+    padding-right: 10%;
+    font-size: 18px;
+    color: gray;
+}
+
+#content #right{
+    margin-top: 98px;
+    width: 30em;
+    float: right;
+    padding-right: 15%;
+}
+
+#content #right img{
+    /*height: 423px;
+    width: 640px;*/
+    height: 100%;
+    width: 100%;
+}
+
+#content #right h1{
+    font-size: 50px;
+    color: white;
+    text-align: left;
+    padding-right: 4%;
+}
+
+.botnav {
+    /*background-image: url("images/bar.jpg");*/
+    background-color: gray;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    bottom: 0px;
+    left: 0;
+}
+
+.botnav .left {
+    float: left;
+    max-width: 40%;
+    display: inline-block;
+    padding-left: 3%;
+}
+
+.botnav .left h1{
+    float: left;
+    display: inline-block;
+    padding-left: 0.25em;
+    color: #d3d3d3;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Proxima Nova;
+    text-align: left;
+    
+}
+
+/* Style the links inside the navigation bar */
+.botnav a {
+    float: right;
+    display: block;
+    color: #d3d3d3;
+    text-align: center;
+    padding-top: .6em;
+    padding-right: 2.5em;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Proxima Nova;
+}
+
+/* Change the color of links on hover */
+.botnav .right a:hover {
+    color: #f9f9f9;
+    }
+
+/* Add a color to the active/current link */
+.botnav .right a:active {
+    
+}
