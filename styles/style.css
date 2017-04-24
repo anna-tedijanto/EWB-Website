@@ -1,197 +1,307 @@
-/* Add a black background color to the top navigation */
+
 body{
     margin: 0;
-}
-
-h1 {
-    text-align:center;
     font-family: Proxima Nova;
+    color: grey;
+    font-size: 21px;
 }
 
-p {
-    text-align:left;
-    font-family: Proxima Nova;
-}
-
-.topnav {
-    /*background-image: url("images/bar.jpg");*/
-    background-color: #f9f9f9;
-    overflow: hidden;
-    width: 100%;
-    position: fixed;
-    padding: 0px;
-    top: 0px;
-    z-index: 500;
-}
-
-.topnav .left {
-    background-color: #f9f9f9;
-    float: left;
-    max-width: 40%;
-    display: inline-block;
-}
-
-.topnav .left img {
-    float: left;
-    display: inline-block;
-    padding-left: 2.25em;
-    height: 5em;
-    width: 5em;
-}
-.topnav .left a {
-    float: left;
-    display: inline-block;
-    padding-left: 0.25em;
-    color: #1058a2;
-    font-size: 20px;
-    padding-top: .75em;
-    text-decoration: none;
-    font-family: Proxima Nova;
-    text-align: left;
-    
-}
-.topnav .left a em{
-    color: #b31b1b;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: right;
-    display: block;
-    color: #1058a2;
-    text-align: center;
-    padding-top: 1.4em;
-    margin-right: 2.5em;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Proxima Nova;
-}
-
-/* Change the color of links on hover */
-.topnav .right a:hover {
-    border-bottom: 2px solid #b31b1b;
+/**********************************clear********************************/
+    *{
+        box-sizing: border-box;
     }
 
-/* Add a color to the active/current link */
-.topnav .right a:active {
-    border-bottom: 2px solid #b31b1b;
-    
-}
-
-#content {
-    padding-top: 2.4em;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
-}
-#header{
-    width: 100%;
-}
-
-#header h1{
-    font-size: 55px;
-    /*position: absolute;*/
-    left: 0;
-    width: 100%;
-    color: #f9f9f9;
-    font-family: Catamaran;
-    padding-top: 4.5em;
-    padding-bottom: 4.5em;
-    background: url("images/sky2.jpg");
-    background-position: center center;
-    background-size: cover;
-
-}
-
-#content #left{
-    width: 24em;
-    float: left;
-    padding-left: 15%;
-}
-
-#content #left h1{
-    font-size: 50px;
-    color: #1058a2;
-    text-align: left;
-}
-
-#content #left p{
-    text-align: justify;
-    padding-right: 10%;
-    font-size: 18px;
-    color: gray;
-}
-
-#content #right{
-    margin-top: 98px;
-    width: 30em;
-    float: right;
-    padding-right: 15%;
-}
-
-#content #right img{
-    /*height: 423px;
-    width: 640px;*/
-    height: 100%;
-    width: 100%;
-}
-
-#content #right h1{
-    font-size: 50px;
-    color: white;
-    text-align: left;
-    padding-right: 4%;
-}
-
-.botnav {
-    /*background-image: url("images/bar.jpg");*/
-    background-color: gray;
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-    padding: 0px;
-    bottom: 0px;
-    left: 0;
-}
-
-.botnav .left {
-    float: left;
-    max-width: 40%;
-    display: inline-block;
-    padding-left: 3%;
-}
-
-.botnav .left h1{
-    float: left;
-    display: inline-block;
-    padding-left: 0.25em;
-    color: #d3d3d3;
-    font-size: 16px;
-    text-decoration: none;
-    font-family: Proxima Nova;
-    text-align: left;
-    
-}
-
-/* Style the links inside the navigation bar */
-.botnav a {
-    float: right;
-    display: block;
-    color: #d3d3d3;
-    text-align: center;
-    padding-top: .6em;
-    padding-right: 2.5em;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: Proxima Nova;
-}
-
-/* Change the color of links on hover */
-.botnav .right a:hover {
-    color: #f9f9f9;
+    li{
+        list-style: none;
     }
 
-/* Add a color to the active/current link */
-.botnav .right a:active {
+    a, a:hover, a:focus{
+        text-decoration: none;
+    }
+
+    ul{
+        margin: 0px;
+    }
+
+    ul{
+        padding: 0px;
+    }
     
-}
+
+/**********************************usual********************************/
+
+
+    /*************img resizing****************/
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-fluid-h {
+        height: 100%;
+        width: auto;
+    }
+
+    /*************text adjust*****************/
+
+    .justify {
+        text-align: justify; 
+    }
+
+    /* parallel - center */
+    .center {
+        text-align: center;
+    }
+
+    /* vertical - center */
+    /*the prarent node should better have a fixed height 
+    and be relateive/fix/absolute*/
+    .center-h{
+        position: relative;
+        top: 50%;
+        -ms-transform: translate(0, -50%); /* IE 9 */
+        -webkit-transform: translate(0, -50%); /* Safari */
+        transform: translate(0, -50%);
+
+    }
+
+    /*************div adjust*****************/
+
+    /* with wider left&right padding */
+    .wider{
+        padding-left: 35px;
+        padding-right: 35px; 
+    }
+
+    /* with wider distance between row and row*/
+    .row{
+        margin-bottom: 30px;
+    }
+
+
+    /*************  colors ****************/
+    .blue{
+        color: #1058a2;
+    }
+
+    .white{
+        color: #f9f9f9;
+    }
+
+    .red{
+        color: #b31b1b; 
+    }
+
+    .blue a{
+        color: #1058a2;
+    }
+
+
+/******************************topnav & botnav********************************/
+
+    /*************nav-head****************/
+    .nav-head{
+        height: 100%;
+        float: left;
+        padding: 2px 45px 2px 25px; 
+    }
+
+    .nav-head > *{
+        display: block;
+        float: left;
+        margin-left: 20px;
+    }
+
+    /*************nav-right****************/
+    .nav-right{
+        padding-right: 45px;
+        float: right;
+        height: 100%;
+
+    }
+
+    .nav-right li{
+        float: left;
+        margin-left: 42px;    
+    }
+
+    .nav-toggle{
+        margin-right: 20px;
+        display: none;
+        padding: 8px 10px 13px 10px;
+        background-color: #1058a2;
+        float: right;
+        border:1px solid transparent;
+        border-radius: 5px;
+    }
+
+    .nav-toggle .icon{
+        display: block;
+        margin-top: 6px;
+        width: 25px;
+        height: 2px;
+        background-color: #f9f9f9;
+        border-radius: 1px;
+    }
+
+    /****************top nav detail**********************/
+    .topnav {
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)*/;
+        border-bottom:  1px solid #f2f2f2; 
+        background-color: #f9f9f9;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        z-index: 500;
+        height: 80px;
+        font-size: 20px;
+        padding: 0px;
+    
+    }
+
+    .topnav .nav-head {
+        height: 80px;
+    }
+    .topnav .nav-head a{
+        margin-top: 10px;
+        margin-bottom: 10px; 
+    }
+
+    /* Change the color of links on hover */
+    .topnav .nav-right a:hover {
+        border-bottom: 2px solid #b31b1b;
+        }
+
+    /* Add a color to the active/current link */
+    .topnav .nav-right a:active {
+        border-bottom: 2px solid #b31b1b;
+        
+    }
+
+    .topnav .nav-right a.active{
+         border-bottom: 2px solid #b31b1b;
+    }
+
+    .topnav .nav-right li{
+        margin-top: 25px;
+        margin-bottom: 25px; 
+    }
+
+
+    /****************bottom nav detail**********************/
+    .botnav {
+        /*background-image: url("images/bar.jpg");*/
+        background-color: gray;
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        bottom: 0px;
+        left: 0;
+        font-size: 16px;
+        height: 60px;
+        padding: 0 45px 0 25px;
+    }
+
+    /* Style the links inside the navigation bar */
+    .botnav .nav-right a {
+        color: #d3d3d3;
+    }
+
+    /* Change the color of links on hover */
+    .botnav .nav-right a:hover {
+        color: #fff;
+    }
+
+    /****************** nav responsive ********************/
+    @media (max-width: 1200px){
+
+        .topnav{
+            height: auto;
+        }
+
+        .topnav .nav-toggle{
+            display: block;
+        }
+
+        .topnav .nav-head{
+            border-bottom: 1px solid #fff; 
+            float: none;
+        }
+
+        .topnav .nav-right{
+            padding: 0px;
+            float: none;
+            display: none;
+        }
+
+        .topnav .nav-right li{
+            background-color: #f9f9f9;
+            display: block;
+            float: none;
+            border-bottom: 1px solid #fff; 
+            margin: 0;
+            padding: 20px 55px;
+        }
+
+        .topnav .nav-right li:hover{
+            background-color: #ffffff;
+            font-style: italic;
+        }
+
+        .topnav .nav-right a:hover {
+            border-style: none;
+        }
+
+
+        
+    }
+
+
+/*******************************Main Content*************************************/
+    #content {
+        padding: 2.4em 0;
+        width: 100%;
+    }
+
+    .content {
+        margin-top: 80px;
+        padding: 2.4em 0;
+        width: 100%;   
+    }
+
+
+/********************************About page**********************************/
+    .banner{
+        margin-top: 80px;
+        clear: both;
+        background: url("images/sky2.jpg");
+        background-position: center center;
+        background-size: cover;
+        height: 600px;
+    }
+
+    .banner h1{
+        font-size: 55px;
+        width: 100%;
+        color: #f9f9f9;
+        font-family: Catamaran;
+    }
+
+/********************************Member page**********************************/
+
+
+
+/********************************Subteam page**********************************/
+
+
+
+/********************************Sponsor page**********************************/
+
+
+/********************************Contact page**********************************/
+
+
+
+
+
+
