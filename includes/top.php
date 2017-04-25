@@ -7,7 +7,7 @@
             </button>
             <img class="img-fluid-h" src="images/ewb_logo.png" alt="logo">
             <a href="index.php">Engineers Without Borders</br>
-                <em class="red">Cornell Universiy</em>
+                <em class="red">Cornell University</em>
             </a>
         </div>
         
@@ -15,7 +15,7 @@
             <li><a id="home" href="index.php">ABOUT US</a></li>
             <li><a id="members" href="members.php">MEMBERS</a></li>
             <li><a id="subteams" href="subteams.php">SUBTEAMS</a></li>
-            <li><a id="sponsors" href="sponsors.php">APONSORS</a></li>
+            <li><a id="sponsors" href="sponsors.php">SPONSORS</a></li>
             <li><a id="contact" href="contact.php">CONTACT</a></li>
         </ul> 
            
