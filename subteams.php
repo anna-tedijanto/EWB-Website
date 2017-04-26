@@ -4,18 +4,14 @@
 <html lang = "en">
 
 <head>
-    
-    <meta charset="utf-8">
-    <title>Engineers Without Borders</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Proxima+Nova" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <?php
+      include_once 'includes/common.php';
+      commonHeader();
+    ?> 
     <script type="text/javascript">
         
             $(document).ready(function(){
-                $("#subteam").addClass("active");
+                $("#subteams").addClass("active");
                 $(".nav-toggle").click(function(){
                     $(".topnav .nav-right").slideToggle();
                 });
@@ -35,7 +31,7 @@
     
 <body>
     <?php
-        include 'includes/top.php';
+        commonTop();
     ?> 
     <div class= "content">        
         <div class="container">
@@ -114,7 +110,7 @@
         </div>
     </div>
     <?php
-        include 'includes/bottom.php';
+        commonBottom();
     ?> 
 
     
