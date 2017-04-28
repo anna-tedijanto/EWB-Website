@@ -269,6 +269,28 @@ body{
         width: 100%;   
     }
 
+        @media (min-width: 1200px)
+    {
+        .container{
+            margin-left: auto;
+            margin-right: auto;  
+            width: 960px;
+        }
+    }
+
+
+    @media (min-width: 1400px)
+    {
+        .container{
+            margin-left: auto;
+            margin-right: auto;  
+            width: 1200px;
+        }
+        body{
+            font-size: 21px; 
+        }
+    }
+
 
 /********************************About page**********************************/
     .banner{
