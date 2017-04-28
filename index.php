@@ -40,9 +40,9 @@
     <div id = "content">        
         <div class="container">
             <div class="row">
-                <h1 class="wider blue title"><strong>ABOUT US</strong></h1>
+                <h1 class="wider blue"><strong>ABOUT US</strong></h1>
             </div> 
-            <div class="row main">
+            <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 wider">
                     
                         <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
