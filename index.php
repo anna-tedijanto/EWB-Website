@@ -40,10 +40,10 @@
     <div id = "content">        
         <div class="container">
             <div class="row">
-                <h1 class="wider blue"><strong>ABOUT US</strong></h1>
+                <h1 class="wider blue col-lg-offset-1"><strong>ABOUT US</strong></h1>
             </div> 
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 wider">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-lg-offset-1 wider">
                     
                         <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
                         motivated students who aim to create long-lasting solutions to problems in
@@ -61,7 +61,7 @@
                         </p>
                 </div>
                 
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 wider">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 wider">
                     <img class="img-fluid" src="images/team.jpg" alt="team">
                     <img class="img-fluid" src="images/pie_chart.png" alt="pie">
                 </div>

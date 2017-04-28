@@ -3,7 +3,7 @@ body{
     margin: 0;
     font-family: Proxima Nova;
     color: grey;
-    font-size: 21px;
+    font-size: 18px;
 }
 
 /**********************************clear********************************/
@@ -264,7 +264,7 @@ body{
     }
 
     .content {
-        margin-top: 80px;
+        margin-top: 0;
         padding: 2.4em 0;
         width: 100%;   
     }
@@ -274,10 +274,10 @@ body{
     .banner{
         margin-top: 80px;
         clear: both;
-        background: url("images/sky2.jpg");
-        background-position: center center;
+        background: url("images/hike.jpg");
+        background-position: center 70%;
         background-size: cover;
-        height: 600px;
+        height: 550px;
     }
 
     .banner h1{
@@ -290,8 +290,50 @@ body{
 /********************************Member page**********************************/
 
 
-
 /********************************Subteam page**********************************/
+
+    .bannersub{
+        margin-top: 80px;
+        clear: both;
+        background: url("images/groupb.jpg");
+        background-position: center 50%;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .bannersub h1{
+        font-size: 55px;
+        width: 100%;
+        color: #f9f9f9;
+        font-family: Catamaran;
+        margin-top: 0px;
+    }
+
+    .bannersub h2{
+        font-size: 22px;
+        width: 100%;
+        color: #f9f9f9;
+        font-family: Proxima Nova;
+        margin-top: 0px;
+    }
+
+    .containersub {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 115px;
+    }
+
+    input[type=button], input[type=submit], input[type=reset] {
+        background-color: #grey;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
 
 
 
