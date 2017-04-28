@@ -46,7 +46,7 @@
             </div>
         </div>
     </div>
-    <div class= "content">        
+    <div id = "content">        
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 align="center" wider">

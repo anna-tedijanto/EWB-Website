@@ -42,7 +42,7 @@
             </div>
         </div>
     </div>
-    <div class= "content">        
+    <div id= "content">        
         <div class="container">
             <div class="row">
                 <h1 class="wider blue title center "><strong>CONTACT US NOW!</strong></h1>
