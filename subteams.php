@@ -49,7 +49,7 @@
     <div class= "content">        
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 align="center" wider">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 align="center" wider">
               <ul class="nav nav-tabs">
                 <li><a data-toggle="tab" href="#exec">Executive Board</a></li>
                 <li><a data-toggle="tab" href="#bus-des">Business/Design</a></li>
@@ -66,7 +66,7 @@
                     <h1 class="wider grey col-lg-offset-1"><strong>Executive Board</strong></h1>
                   </div><!--end row div-->
                   <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-lg-offset-1 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 wider">
                         
                             <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
                             motivated students who aim to create long-lasting solutions to problems in
@@ -83,7 +83,7 @@
                             250 EWB chapters.
                             </p>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 wider">
                         <img class="img-fluid" src="images/team.jpg" alt="team">
                         <img class="img-fluid" src="images/pie_chart.png" alt="pie">
                     </div>
