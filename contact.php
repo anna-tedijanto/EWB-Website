@@ -33,76 +33,40 @@
     <?php
         commonTop();
     ?> 
-    <div class= "content">        
+    <div class = "bannersub container-fluid">
+        <div class="containersub">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id= "content">        
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
-                        motivated students who aim to create long-lasting solutions to problems in
-                        international communities. Members are given the opportunity to nurture their
-                        creative and technical expertise by designing and implementing sustainable
-                        engineering projects. Through collaboration with communities in developing
-                        countries around the world, our members are exposed to diverse cultures
-                        while gaining academic experience outside of the classroom environment.
-                        </p>
-                        
-                </div>
-                
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    	<P class="justify">Our growing team of 52 dedicated students includes undergraduate and
-                        graduate students from several of Cornell’s colleges including the College of
-                        Engineering, the College of Arts and Sciences, and the College of Agriculture
-                        and Life Sciences. Our network also extends beyond Cornell’s campus to over
-                        250 EWB chapters.
-                    	</p>
-                </div>
-
+                <h1 class="wider blue title center "><strong>CONTACT US NOW!</strong></h1>
             </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
-                        motivated students who aim to create long-lasting solutions to problems in
-                        international communities. Members are given the opportunity to nurture their
-                        creative and technical expertise by designing and implementing sustainable
-                        engineering projects. Through collaboration with communities in developing
-                        countries around the world, our members are exposed to diverse cultures
-                        while gaining academic experience outside of the classroom environment.
-                        </p>
-                        
+            <div class="row main">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                    <p class="blue">TEL</p>
+                    <p>(607) 229 9482</p>
+                    <br>
+                    <p class="blue">EMAIL</p>
+                    <p>ewb@gmail.com</p>
+                    <br>
+                    <p class="blue">ADDRESS</p>
+                    <p>Cornell University Ithaca, NY, 14850</p>
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
-                        motivated students who aim to create long-lasting solutions to problems in
-                        international communities. Members are given the opportunity to nurture their
-                        creative and technical expertise by designing and implementing sustainable
-                        engineering projects. Through collaboration with communities in developing
-                        countries around the world, our members are exposed to diverse cultures
-                        while gaining academic experience outside of the classroom environment.
-                        </p>
-                        
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
-                        motivated students who aim to create long-lasting solutions to problems in
-                        international communities. Members are given the opportunity to nurture their
-                        creative and technical expertise by designing and implementing sustainable
-                        engineering projects. Through collaboration with communities in developing
-                        countries around the world, our members are exposed to diverse cultures
-                        while gaining academic experience outside of the classroom environment.
-                        </p>
-                        
-                </div>
-                
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                    	<P class="justify">Our growing team of 52 dedicated students includes undergraduate and
-                        graduate students from several of Cornell’s colleges including the College of
-                        Engineering, the College of Arts and Sciences, and the College of Agriculture
-                        and Life Sciences. Our network also extends beyond Cornell’s campus to over
-                        250 EWB chapters.
-                    	</p>
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-7">
+                    <form class="contact" method="post">
+                        <input type="text" name="Name" value="Name" class="block">
+                        <input type="text" name="Email" value="Email" class="block">
+                        <input type="text" name="Subject" value="Subject" class="block">
+                        <textarea rows="6" cols="43" class="block">Message</textarea>
+                        <input type="submit" value="send">
+                    </form>
                 </div>
 
             </div>

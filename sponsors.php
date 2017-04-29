@@ -33,85 +33,39 @@
     <?php
         commonTop();
     ?> 
-    <div class= "content">        
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
-                        motivated students who aim to create long-lasting solutions to problems in
-                        international communities. Members are given the opportunity to nurture their
-                        creative and technical expertise by designing and implementing sustainable
-                        engineering projects. Through collaboration with communities in developing
-                        countries around the world, our members are exposed to diverse cultures
-                        while gaining academic experience outside of the classroom environment.
-                        </p>
-                        
+    <div class="sponsors">
+        <div class = "bannersub container-fluid">
+            <div class="containersub">
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3">
+                        <h1 class="center"><strong>SPONSORS</strong></h1>
+                        <h2 class="center"><strong>The team depends on the generous support of its sponsors and could not exist without them. To become a member of the EWB sponsor group, we ask that you make a contribution to help support us in our endeavors.<br><br><a href="">Sponsorship Packet</a>&emsp;&emsp;<a href="">Make A Donation</a></strong></h2>
+                    </div>
                 </div>
-                
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <P class="justify">Our growing team of 52 dedicated students includes undergraduate and
-                        graduate students from several of Cornell’s colleges including the College of
-                        Engineering, the College of Arts and Sciences, and the College of Agriculture
-                        and Life Sciences. Our network also extends beyond Cornell’s campus to over
-                        250 EWB chapters.
-                        </p>
-                </div>
-
             </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
-                        motivated students who aim to create long-lasting solutions to problems in
-                        international communities. Members are given the opportunity to nurture their
-                        creative and technical expertise by designing and implementing sustainable
-                        engineering projects. Through collaboration with communities in developing
-                        countries around the world, our members are exposed to diverse cultures
-                        while gaining academic experience outside of the classroom environment.
-                        </p>
-                        
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
-                        motivated students who aim to create long-lasting solutions to problems in
-                        international communities. Members are given the opportunity to nurture their
-                        creative and technical expertise by designing and implementing sustainable
-                        engineering projects. Through collaboration with communities in developing
-                        countries around the world, our members are exposed to diverse cultures
-                        while gaining academic experience outside of the classroom environment.
-                        </p>
-                        
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
-                        motivated students who aim to create long-lasting solutions to problems in
-                        international communities. Members are given the opportunity to nurture their
-                        creative and technical expertise by designing and implementing sustainable
-                        engineering projects. Through collaboration with communities in developing
-                        countries around the world, our members are exposed to diverse cultures
-                        while gaining academic experience outside of the classroom environment.
-                        </p>
-                        
-                </div>
-                
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <P class="justify">Our growing team of 52 dedicated students includes undergraduate and
-                        graduate students from several of Cornell’s colleges including the College of
-                        Engineering, the College of Arts and Sciences, and the College of Agriculture
-                        and Life Sciences. Our network also extends beyond Cornell’s campus to over
-                        250 EWB chapters.
-                        </p>
-                </div>
-
-            </div>
-           
         </div>
     </div>
+    <div class= "content">
+        <hr>
+        <h1 class="center"><strong>Platinum Sponsors</strong></h1>
+        <hr>
+        <hr>
+        <h1 class="center"><strong>Gold Sponsors</strong></h1>
+        <hr>
+        <hr>
+        <h1 class="center"><strong>Silver Sponsors</strong></h1>
+        <hr>
+        <hr>
+        <h1 class="center"><strong>Bronze Sponsors</strong></h1>
+        <hr>
+
+        
+    </div><!--end content div-->
     <?php
         commonBottom();
     ?> 
+
+
 
     
 </body>    

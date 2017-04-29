@@ -264,9 +264,31 @@ body{
     }
 
     .content {
-        margin-top: 0;
+        margin-top: 80px;
         padding: 2.4em 0;
         width: 100%;   
+    }
+
+    @media (min-width: 1200px)
+    {
+        .container{
+            margin-left: auto;
+            margin-right: auto;  
+            width: 900px;
+        }
+    }
+
+
+    @media (min-width: 1400px)
+    {
+        .container{
+            margin-left: auto;
+            margin-right: auto;  
+            width: 1200px;
+        }
+        body{
+            font-size: 21px; 
+        }
     }
 
 
@@ -368,8 +390,55 @@ body{
 
 /********************************Sponsor page**********************************/
 
+    .sponsors .bannersub{
+        margin-top: 80px;
+        clear: both;
+        background: url("images/hike1b.jpg");
+        background-position: center 50%;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .sponsors a{
+        color: #f9f9f9;
+        border-style: solid;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-bottom-color: #b31b1b;
+    }
+    .sponsors a:hover{
+        border-bottom-color: #1058a2;
+    }
+
 
 /********************************Contact page**********************************/
+
+    .contact input[type=submit], input[type=reset]{
+        display: block;
+        background-color: #1058a2;
+        border:none;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: white;
+        margin-top: 15px;
+    }
+
+
+
+
+    .contact input[type=text]{
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+        width: 440px;  
+        display: block;
+        border: 1px solid grey;
+        background-color: #fff;
+        border-radius: 2px;
+        text-align: left;
+    }
+
 
 
 
