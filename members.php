@@ -33,78 +33,36 @@
     <?php
         commonTop();
     ?> 
+    <div class = "banner container-fluid">
+      <h1 class = "center center-h"><strong>MEMBERS</strong></h1>
+    </div>
+
     <div class= "content">        
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
-                        motivated students who aim to create long-lasting solutions to problems in
-                        international communities. Members are given the opportunity to nurture their
-                        creative and technical expertise by designing and implementing sustainable
-                        engineering projects. Through collaboration with communities in developing
-                        countries around the world, our members are exposed to diverse cultures
-                        while gaining academic experience outside of the classroom environment.
-                        </p>
-                        
-                </div>
+              <?php
+                include_once 'includes/config.php';
                 
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <P class="justify">Our growing team of 52 dedicated students includes undergraduate and
-                        graduate students from several of Cornell’s colleges including the College of
-                        Engineering, the College of Arts and Sciences, and the College of Agriculture
-                        and Life Sciences. Our network also extends beyond Cornell’s campus to over
-                        250 EWB chapters.
-                        </p>
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
-                        motivated students who aim to create long-lasting solutions to problems in
-                        international communities. Members are given the opportunity to nurture their
-                        creative and technical expertise by designing and implementing sustainable
-                        engineering projects. Through collaboration with communities in developing
-                        countries around the world, our members are exposed to diverse cultures
-                        while gaining academic experience outside of the classroom environment.
-                        </p>
-                        
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
-                        motivated students who aim to create long-lasting solutions to problems in
-                        international communities. Members are given the opportunity to nurture their
-                        creative and technical expertise by designing and implementing sustainable
-                        engineering projects. Through collaboration with communities in developing
-                        countries around the world, our members are exposed to diverse cultures
-                        while gaining academic experience outside of the classroom environment.
-                        </p>
-                        
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <p class="justify">Engineers Without Borders-Cornell is a group of passionate and highly
-                        motivated students who aim to create long-lasting solutions to problems in
-                        international communities. Members are given the opportunity to nurture their
-                        creative and technical expertise by designing and implementing sustainable
-                        engineering projects. Through collaboration with communities in developing
-                        countries around the world, our members are exposed to diverse cultures
-                        while gaining academic experience outside of the classroom environment.
-                        </p>
-                        
-                </div>
+                $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+                if ($mysqli->connect_errno) {
+                  printf("Connect failed: %s\n", $mysqli->connect_error);
+                  exit(1);
+                }
                 
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <P class="justify">Our growing team of 52 dedicated students includes undergraduate and
-                        graduate students from several of Cornell’s colleges including the College of
-                        Engineering, the College of Arts and Sciences, and the College of Agriculture
-                        and Life Sciences. Our network also extends beyond Cornell’s campus to over
-                        250 EWB chapters.
-                        </p>
-                </div>
-
+                $result = $mysqli->query("SELECT * FROM Members");
+                while ($row = $result->fetch_assoc()) {
+                  print("<div id='bioholder_${row['id']}' onclick='collapseAllBut(${row['id']})' data-des='${row['description']}' data-major=".'"'."${row['major']}".'"'.">
+                           <div class = 'col-md-2 col-lg-2 col-sm-4 col-xs-6'>
+                             <div class='team-member'>
+                               <div class='team-member-mouseover-box'></div>
+                               <img id='${row['id']}' class='img-responsive team-member-photo' src='${row['url']}'/>
+                             </div>
+                           </div>
+                         </div>");
+                }
+                $mysqli->close();
+              ?>
+              
             </div>
            
         </div>

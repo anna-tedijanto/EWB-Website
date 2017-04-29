@@ -288,8 +288,37 @@ body{
     }
 
 /********************************Member page**********************************/
+.team-member-mouseover-box {
+  bottom: 30px;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  position: absolute;
+  transition: all 250ms ease;
+}
 
+.team-member-mouseover-box:hover{
+  background: rgba(96,125,139,.4);
+  box-shadow: inset 0 0 0 1px #607d8b;
+}
 
+.team-member {
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.team-member-photo {
+}
+
+.selected-team-member{
+  border:thin solid #607d8b;
+}
 /********************************Subteam page**********************************/
 
     .bannersub{
