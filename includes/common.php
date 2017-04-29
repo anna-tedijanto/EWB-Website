@@ -8,7 +8,8 @@
       <link href='https://fonts.googleapis.com/css?family=Proxima+Nova' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet' type='text/css'>
       <link rel='stylesheet' type='text/css' href='styles/style.css'>
-      <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>");
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+      <script src='scripts/main.js'></script>");
   }
   function commonTop() {
     print("

@@ -50,9 +50,10 @@
                 }
                 
                 $result = $mysqli->query("SELECT * FROM Members");
+                $num = $result->num_rows;
                 while ($row = $result->fetch_assoc()) {
-                  print("<div id='bioholder_${row['id']}' onclick='collapseAllBut(${row['id']})' data-des='${row['description']}' data-major=".'"'."${row['major']}".'"'.">
-                           <div class = 'col-md-2 col-lg-2 col-sm-4 col-xs-6'>
+                  print("<div id='bioholder_${row['id']}' onclick='collapseAllBut(${row['id']}, $num)' data-name='${row['name']}' data-des='${row['description']}' data-pos='${row['position']}' data-major=".'"'."${row['major']}".'"'.">
+                           <div class = 'col-md-3 col-lg-2 col-sm-4 col-xs-6'>
                              <div class='team-member'>
                                <div class='team-member-mouseover-box'></div>
                                <img id='${row['id']}' class='img-responsive team-member-photo' src='${row['url']}'/>

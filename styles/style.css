@@ -310,6 +310,13 @@ body{
     }
 
 /********************************Member page**********************************/
+.bio-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: rgba(245, 245, 245, 0.60);
+}
+
 .team-member-mouseover-box {
   bottom: 30px;
   top: 0;
@@ -340,6 +347,29 @@ body{
 
 .selected-team-member{
   border:thin solid #607d8b;
+}
+
+.member-detail-h2{
+  color: #616161;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.member-detail-h4{
+  color: #616161;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.member-detail-p{
+  margin: 0 0 10px;
+  font-size: 14px;
 }
 /********************************Subteam page**********************************/
 
