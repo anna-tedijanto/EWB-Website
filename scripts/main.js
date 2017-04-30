@@ -47,12 +47,33 @@ function collapseAllBut(ref, total) {
   .done(function(result) {
     console.log(result);
     var perrow = getperrow();
-    var after = Math.min((Math.floor(ref/perrow)+1)*perrow-1, total);
+    var after = Math.min((Math.floor((ref-1)/perrow)+1)*perrow, total);
     if ($('.member-detail').data('id') == ref) {
       $('.member-detail').remove();
     } else {
       $('.member-detail').remove();
-      var content = "<div class='member-detail' data-id='"+ref+"'><div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 bio-section' aria-expanded='true'><p class='member-detail-h2'>"+result['name']+" | "+result['position']+"</p><p class='member-detail-h4'>Team: "+result['team']+"<br>Major: "+result['major']+"</p><p class='member-detail-p'>"+result['description']+"</p></div></div>";
+      var content = "<div class='member-detail' data-id='"+ref+"'><div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 bio-section' aria-expanded='true'><p class='member-detail-h2'>"+result['name'];
+      if (result['position'] != "") {
+        content += " | "+result['position'];
+      }
+      if ((result['linkedin'] != "") || (result['email'] != "")) {
+        content += "<span class='icon'>";
+        if (result['email'] != "") {
+          content += "<a href='"+result['email']+"'><img src='images/email-icon.png' height='28' class='pull-right email-icon'></a>";
+        }
+        if (result['linkedin'] != "") {
+          content += "<a href='"+result['linkedin']+"'><img src='images/linkedin-icon.png' height='28' class='pull-right linkedin-icon'></a>";
+        }
+        content += "</span>";
+      }
+      content += "</p><p class='member-detail-h4'>Team: "+result['team'];
+      if (result['major'] != "") {
+        content += "<br>Major: "+result['major'];
+      }
+      content += "</p>";
+      if (result['description'] != "") {
+        content += "<p class='member-detail-p'>"+result['description']+"</p></div></div>";
+      }
       $('#bioholder_'+after).append(content);
     }
   });
