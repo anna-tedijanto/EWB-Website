@@ -34,13 +34,26 @@ function getperrow() {
 }
 
 function collapseAllBut(ref, total) {
-  var perrow = getperrow();
-  var after = Math.min((Math.floor(ref/perrow)+1)*perrow, total);
-  $('.member-detail').remove(); 
-  var bioId = '#bioholder_'+ref;
-  var name=$(bioId).data("name") + " | " + $(bioId).data("pos");
-  var major=$(bioId).data("major");
-  var des=$(bioId).data("des");
-  var content = "<div class='member-detail'><div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 bio-section' aria-expanded='true'><p class='member-detail-h2'>"+name+"</p><p class='member-detail-h4'>Major: "+major+"</p><p class='member-detail-p'>"+des+"</p></div></div>";
-  $('#bioholder_'+after).append(content);
+  $.ajax({
+    url: "ajax/member_detail.php",
+    method: 'POST',
+    data: {id: ref},
+    cache: false,
+    dataType: 'json',
+    error: function(error) {
+      console.log(error);
+    }
+  })
+  .done(function(result) {
+    console.log(result);
+    var perrow = getperrow();
+    var after = Math.min((Math.floor(ref/perrow)+1)*perrow-1, total);
+    if ($('.member-detail').data('id') == ref) {
+      $('.member-detail').remove();
+    } else {
+      $('.member-detail').remove();
+      var content = "<div class='member-detail' data-id='"+ref+"'><div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 bio-section' aria-expanded='true'><p class='member-detail-h2'>"+result['name']+" | "+result['position']+"</p><p class='member-detail-h4'>Team: "+result['team']+"<br>Major: "+result['major']+"</p><p class='member-detail-p'>"+result['description']+"</p></div></div>";
+      $('#bioholder_'+after).append(content);
+    }
+  });
 }

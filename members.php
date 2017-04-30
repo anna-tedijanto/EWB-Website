@@ -52,11 +52,14 @@
                 $result = $mysqli->query("SELECT * FROM Members");
                 $num = $result->num_rows;
                 while ($row = $result->fetch_assoc()) {
-                  print("<div id='bioholder_${row['id']}' onclick='collapseAllBut(${row['id']}, $num)' data-name='${row['name']}' data-des='${row['description']}' data-pos='${row['position']}' data-major=".'"'."${row['major']}".'"'.">
+                  $des = htmlspecialchars($row['description'], ENT_QUOTES);
+                  $major = htmlspecialchars($row['major'], ENT_QUOTES);
+                  $url = headshotDir.$row['url'];
+                  print("<div id='bioholder_${row['id']}' onclick='collapseAllBut(${row['id']}, $num)'>
                            <div class = 'col-md-3 col-lg-2 col-sm-4 col-xs-6'>
                              <div class='team-member'>
                                <div class='team-member-mouseover-box'></div>
-                               <img id='${row['id']}' class='img-responsive team-member-photo' src='${row['url']}'/>
+                               <img id='${row['id']}' class='img-responsive team-member-photo' src='$url'/>
                              </div>
                            </div>
                          </div>");
