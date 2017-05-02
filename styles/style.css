@@ -450,28 +450,60 @@ body{
 
 /********************************Contact page**********************************/
 
-    .contact input[type=submit], input[type=reset]{
-        display: block;
-        background-color: #1058a2;
-        border:none;
-        padding: 5px 10px;
-        cursor: pointer;
-        color: white;
-        margin-top: 15px;
+    
+    .contact .banner{
+        background-image: url("images/banner2.jpg");
     }
 
+    .contact .content{
+        background-position: center 50%;
+        background-size: cover;
+        min-height: 680px;
+        background-image: url("images/banner.jpg");
+        opacity: 0.8;
+    }
 
+    .shadow{
+        padding: 40px 40px;
+    }
+    
 
-
-    .contact input[type=text]{
-        box-sizing: border-box;
-        margin-bottom: 10px;
-        padding: 5px 5px;
-        width: 440px;  
+    .contact-form{
         display: block;
-        border: 1px solid grey;
+        width: 100%;
+        padding: 12px 12px;
+        font-size: 15px;
+        color: #555;
         background-color: #fff;
-        border-radius: 2px;
-        text-align: left;
+        border: 1px solid #ccc;
+        margin-bottom: 12px;
     }
+
+    .contact .info p{
+        color: #fff;
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+
+    }
+
+    form .row{
+        margin-bottom: 0px;   
+    }
+
+    .contact .bb{
+        margin: 15px;
+        padding: 10px 20px;
+        background-color: #333;
+        border: 1px solid #fff;
+        color: #f9f9f9;
+        font-size: 15px;
+    }
+
+    .contact .bb:hover{
+        border: 1px solid #333;
+        background-color: #fff;
+        color: #555;   
+    }
+
 
