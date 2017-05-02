@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
+    $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_STRING);
+
+?>
+
 <!DOCTYPE html> 
 
 
@@ -64,11 +71,94 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 wider">
                     <img class="img-fluid" src="images/team.jpg" alt="team">
                     <img class="img-fluid" src="images/pie_chart.png" alt="pie">
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-7">
+                    <?php 
+                    if (!isset($_SESSION['logged_user']) && (empty($username) || empty($password))){
+                    ?>
+                    <h1 class="wider blue"><strong>LOGIN</strong></h1>
+                    <form class="login" method="post">
+                        <input type="text" name="username" value="username" class="block">
+                        <input type="password" name="password" value="password" class="block">
+                        <input type="submit" value="Login" name="login">
+                    </form>
+
+                    <?php 
+                    } else{
+                        require_once 'includes/config.php';
+            
+                        $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+                
+                        if ($mysqli->errno) {
+                            print($mysqli->error);
+                            exit();
+                        }
+
+
+                        $result = $mysqli->query('SELECT * FROM Login');
+
+                        if (!$result) {
+                            print($mysqli->error);
+                            exit();
+                        }
+
+                        $verify_password = false;
+                        $verify_username = false;
+                        while (($row = $result->fetch_assoc()) && (!$verify_username) && (!$verify_password)) {
+                            $valid_password = $row['password'];
+                            $valid_username = $row['username'];
+
+                            $verify_password = password_verify($password, $valid_password);
+                            if ($username == $valid_username){
+                                $verify_username = true;
+                            } else{
+                                $verify_username = false;
+                            }
+                        }
+                        if (($verify_username) && ($verify_password)){
+                            $_SESSION['logged_user'] = $username;
+                        } else{
+                            if (!isset($_SESSION['logged_user']) && (!isset($_POST['logout']))){
+                                print('<h1 class="wider blue"><strong>LOGIN</strong></h1>
+                                        <form class="login" method="post">
+                                            <input type="text" name="username" value="username" class="block">
+                                            <input type="password" name="password" value="password" class="block">
+                                            <input type="submit" value="Login" name="login">
+                                        </form>');
+                                print('Sorry, you entered an invalid username and password combination and could not be logged in.');
+                            }
+                        }
+                    }
+                    if(isset($_SESSION['logged_user']) ){
+                        if (!isset($_POST['logout'])){
+                    ?>
+                    <h1 class="wider blue"><strong>LOGOUT</strong></h1>
+                    <form class="login" method="post">
+                        <input type="submit" value="Logout" name="logout">
+                    </form>
+
+                    <?php
+                    } else{
+                        unset($_SESSION['logged_user']);
+                        unset($_SESSION);
+                        $_SESSION = array();
+                        session_destroy();
+                    ?>
+                    <h1 class="wider blue"><strong>LOGIN</strong></h1>
+                    <form class="login" method="post">
+                        <input type="text" name="username" value="username" class="block">
+                        <input type="password" name="password" value="password" class="block">
+                        <input type="submit" value="Login" name="login">
+                    </form>
+                    <?php
+                        }
+                    }
+                    ?>
+                </div>
                 </div>
 
             </div>
-    	   
-    	</div>
+           
+        </div>
     </div>
     <?php
         commonBottom();

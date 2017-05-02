@@ -309,6 +309,40 @@ body{
         font-family: Catamaran;
     }
 
+    .login input[type=password]{
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+        width: 440px;  
+        display: block;
+        border: 1px solid grey;
+        background-color: #fff;
+        border-radius: 2px;
+        text-align: left;
+    }
+
+    .login input[type=text]{
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+        width: 440px;  
+        display: block;
+        border: 1px solid grey;
+        background-color: #fff;
+        border-radius: 2px;
+        text-align: left;
+    }
+
+    .login input[type=submit], input[type=reset]{
+        display: block;
+        background-color: #1058a2;
+        border:none;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: white;
+        margin-top: 15px;
+    }
+
 /********************************Member page**********************************/
 .bio-section {
     margin-bottom: 20px;
@@ -442,7 +476,12 @@ body{
 
 
 /********************************Sponsor page**********************************/
-
+    
+    .sponsors .content{
+        padding-top: 0;
+        margin-top : 0;
+    }
+    
     .sponsors .bannersub{
         margin-top: 80px;
         clear: both;
