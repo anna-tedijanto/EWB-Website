@@ -44,22 +44,20 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class= "content">
-        <hr>
-        <h1 class="center"><strong>Platinum Sponsors</strong></h1>
-        <hr>
-        <hr>
-        <h1 class="center"><strong>Gold Sponsors</strong></h1>
-        <hr>
-        <hr>
-        <h1 class="center"><strong>Silver Sponsors</strong></h1>
-        <hr>
-        <hr>
-        <h1 class="center"><strong>Bronze Sponsors</strong></h1>
-        <hr>
-
-        
+        <div class= "content">
+            <hr>
+            <h1 class="center"><strong>Platinum Sponsors</strong></h1>
+            <hr>
+            <hr>
+            <h1 class="center"><strong>Gold Sponsors</strong></h1>
+            <hr>
+            <hr>
+            <h1 class="center"><strong>Silver Sponsors</strong></h1>
+            <hr>
+            <hr>
+            <h1 class="center"><strong>Bronze Sponsors</strong></h1>
+            <hr>
+        </div>
     </div><!--end content div-->
     <?php
         commonBottom();
