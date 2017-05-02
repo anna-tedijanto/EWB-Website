@@ -57,12 +57,11 @@ function collapseAllBut(ref, total) {
         content += " | "+result['position'];
       }
       if ((result['linkedin'] != "") || (result['email'] != "")) {
-        content += "<span class='icon'>";
         if (result['email'] != "") {
-          content += "<a href='"+result['email']+"'><img src='images/email-icon.png' height='28' class='pull-right email-icon'></a>";
+          content += "<a href='mailto:"+result['email']+"'><img src='images/email-icon.png' height='28' class='pull-right member-icon'></a>";
         }
         if (result['linkedin'] != "") {
-          content += "<a href='"+result['linkedin']+"'><img src='images/linkedin-icon.png' height='28' class='pull-right linkedin-icon'></a>";
+          content += "<a href='"+result['linkedin']+"'><img src='images/linkedin-icon.png' height='28' class='pull-right member-icon'></a>";
         }
         content += "</span>";
       }
