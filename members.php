@@ -33,7 +33,7 @@
     <?php
         commonTop();
     ?> 
-    <div class = "banner container-fluid">
+    <div class = "bannermem container-fluid">
       <h1 class = "center center-h"><strong>MEMBERS</strong></h1>
     </div>
 
@@ -55,9 +55,9 @@
                   $des = htmlspecialchars($row['description'], ENT_QUOTES);
                   $major = htmlspecialchars($row['major'], ENT_QUOTES);
                   $url = headshotDir.$row['url'];
-                  print("<div id='bioholder_${row['id']}' onclick='collapseAllBut(${row['id']}, $num)'>
+                  print("<div id='bioholder_${row['id']}'>
                            <div class = 'col-md-3 col-lg-2 col-sm-4 col-xs-6'>
-                             <div class='team-member'>
+                             <div class='team-member' onclick='collapseAllBut(${row['id']}, $num)'>
                                <div class='team-member-mouseover-box'></div>
                                <img id='${row['id']}' class='img-responsive team-member-photo' src='$url'/>
                              </div>
@@ -72,7 +72,7 @@
         </div>
     </div>
     <?php
-        include 'includes/bottom.php';
+      commonBottom();
     ?> 
 
     

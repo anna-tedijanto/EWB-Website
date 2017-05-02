@@ -354,16 +354,33 @@ body{
   line-height: 1.3;
 }
 
-.email-icon, .linkedin-icon {
+.member-icon{
   max-width: 100px;
   margin-top: -2px;
   padding-right: 30px;
 }
+
 .member-detail-p{
   margin: 0 0 10px;
   font-size: 19px;
 }
 
+.bannermem{
+    margin-top: 80px;
+    clear: both;
+    background: url("images/team1.jpg");
+    background-position: center 55%;
+    background-size: cover;
+    height: 400px;
+}
+
+.bannermem h1{
+    font-size: 55px;
+    width: 100%;
+    color: #f9f9f9;
+    font-family: Catamaran;
+    margin-top: 0px;
+}
 /********************************Subteam page**********************************/
 
     .bannersub{
@@ -441,28 +458,81 @@ body{
 
 /********************************Contact page**********************************/
 
-    .contact input[type=submit], input[type=reset]{
-        display: block;
-        background-color: #1058a2;
-        border:none;
-        padding: 5px 10px;
-        cursor: pointer;
-        color: white;
-        margin-top: 15px;
+    .contact{
+        color: #000;
     }
 
+    .contact .content{
+        font-size: 15px;
+        background-position: center 50%;
+        background-size: cover;
+        min-height: 680px;
+        background-image: url("images/banner.jpg");
+        /*background-color: #1058a2;*/
+        opacity: 0.8;
+    }
 
+    .contact .shadow{
+        padding: 40px 40px;
+    }
 
-
-    .contact input[type=text]{
-        box-sizing: border-box;
-        margin-bottom: 10px;
-        padding: 5px 5px;
-        width: 440px;  
-        display: block;
-        border: 1px solid grey;
+    .contact .shadow-white{
+        padding: 40px 40px;
         background-color: #fff;
-        border-radius: 2px;
-        text-align: left;
+        opacity: 0.8;
     }
+    
+
+    .contact-form{
+        color: grey;
+        display: block;
+        width: 100%;
+        padding: 12px 12px;
+        font-size: 15px;
+        color: #555;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        margin-bottom: 12px;
+    }
+
+    .block{ 
+        width: 80%;
+        padding: 12px 12px;
+        font-size: 15px;
+        color: #555;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        margin-bottom: 12px; 
+    }
+
+    .contact .info p{
+        color: #fff;
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+
+    }
+
+    form .row{
+        margin-bottom: 0px;   
+    }
+
+    form{
+        opacity: 0.8;
+    }
+
+    .contact .bb{
+        padding: 10px 20px;
+        background-color: #333;
+        border: 1px solid #fff;
+        color: #f9f9f9;
+        font-size: 15px;
+    }
+
+    .contact .bb:hover{
+        border: 1px solid #333;
+        background-color: #fff;
+        color: #555;   
+    }
+
 
