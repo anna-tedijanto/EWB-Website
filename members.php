@@ -72,7 +72,7 @@
         </div>
     </div>
     <?php
-        include 'includes/bottom.php';
+      commonBottom();
     ?> 
 
     
