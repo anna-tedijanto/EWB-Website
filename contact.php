@@ -45,7 +45,7 @@
                         <input type="text" name="Search" class="block"><span class="glyphicon glyphicon-search" style="font-size:13px; left:-30px; color: #000"></span>
                     </div>
                     
-                    <div class="col-lg-2 pull-right">
+                    <div class="col-lg-2 col-lg-push-6">
                         <div class="contact-form center">
                         Date
                         <a href=""><span class="glyphicon glyphicon-arrow-up" style="color: #000"></span></a>
