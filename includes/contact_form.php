@@ -21,6 +21,13 @@
                             if(!empty($post_name) && !empty($post_email) && !empty($post_subject) && !empty($post_content))
                             {
 
+                                $to = "yw774@cornell.edu";
+                                $subject = $post_email;
+                                $txt = $post_content;
+                                $headers = "Send By ".$post_name."From:".$post_email."\r\n";
+
+                                mail($to,$subject,$txt,$headers);
+
                                 $post_time=date("Y-m-d h:i:sa");
 
                                 $insertSql = "INSERT into messages(name, email, subject, message, senttime) VALUES('$post_name', '$post_email','$post_subject', '$post_content', '$post_time')";
@@ -39,7 +46,7 @@
                     ?>
 
                     <div class="col-md-8 col-lg-8">
-                        <form method="post">
+                        <form id="form" name="form" method="post">
                             <div class="row">
                             <div class="col-md-6 col-lg-6">
                                 <input type="text" name="name" placeholder="Name" class="contact-form" required>
