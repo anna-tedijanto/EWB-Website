@@ -497,25 +497,19 @@ body{
 
 /********************************Contact page**********************************/
 
-    .contact{
-        color: #000;
+    .contact .banner{
+        background-image: url("images/sky1.jpg");
+        height: 400px;
     }
 
-    .contact .content{
+    .contact #content{
+        padding-top: 80px;
         font-size: 15px;
-        background-position: center 50%;
-        background-size: cover;
-        min-height: 680px;
-        background-image: url("images/banner.jpg");
-        /*background-color: #1058a2;*/
-        opacity: 0.8;
+        background-color: #f9f9f9;
     }
 
-    .contact .shadow{
-        padding: 40px 40px;
-    }
 
-    .contact .shadow-white{
+    .contact .message-box{
         padding: 40px 40px;
         background-color: #fff;
         opacity: 0.8;
@@ -534,18 +528,8 @@ body{
         margin-bottom: 12px;
     }
 
-    .block{ 
-        width: 80%;
-        padding: 12px 12px;
-        font-size: 15px;
-        color: #555;
-        background-color: #fff;
-        border: 1px solid #ccc;
-        margin-bottom: 12px; 
-    }
 
     .contact .info p{
-        color: #fff;
         font-size: 20px;
         margin-top: 5px;
         margin-bottom: 20px;
@@ -556,13 +540,10 @@ body{
         margin-bottom: 0px;   
     }
 
-    form{
-        opacity: 0.8;
-    }
 
     .contact .bb{
         padding: 10px 20px;
-        background-color: #333;
+        background-color: grey;
         border: 1px solid #fff;
         color: #f9f9f9;
         font-size: 15px;
