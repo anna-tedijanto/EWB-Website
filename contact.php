@@ -5,8 +5,18 @@
 
 <head>
     <?php
-      include_once 'includes/common.php';
-      commonHeader();
+        include_once 'includes/common.php';
+        commonHeader();
+        require_once 'includes/config.php';
+        $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+        if ($mysqli->errno) {
+            //The page isn't worth much without a db connection so display the error and quit
+            print($mysqli->error);
+            exit();
+        }
+
+
+
     ?>
     <script type="text/javascript">
         
@@ -33,44 +43,24 @@
     <?php
         commonTop();
     ?> 
-    <div class= "content">        
-        <div class="container">
-            <div class="shadow">
-                <div class="row">
-                    <h1 class="center white"><strong>C O N T A C T</strong></h1>
-                </div>
-                <div class="row main">
-                    <div class="col-md-3 col-lg-3 col-lg-offset-1 info">
-                        <p><span class="glyphicon glyphicon-map-marker"></span> Cornell University Ithaca, NY</p>
-                        <p><span class="glyphicon glyphicon-phone"></span> Phone:+16072299482</p>
-                        <p><span class="glyphicon glyphicon-envelope"></span> Email:ewb@gmail.com</p>
-                        <p><span></span></p>
-                    </div>
 
-                    <div class="col-md-8 col-lg-7">
-                        <form method="post">
-                        <div class="row">
-                            <div class="col-md-6 col-lg-6">
-                                <input type="text" name="Name" value="Name" class="contact-form">
-                            </div>
-                            <div class="col-md-6 col-lg-6">
-                                <input type="text" name="Email" value="Email" class="contact-form">
-                            </div>
-                        </div>    
-                        <div class="row">
-                            <div class="col-lg-12">
-                            <input type="text" name="Subject" value="Subject" class="contact-form">
-                            </div>
-                        </div>
-                            <textarea rows="6" class="contact-form">Message</textarea>
-                            
-                        <div class="row">
-                            <input type="submit" value="send" class="pull-right bb">
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+    <div class = "banner container-fluid">
+        <h1 class="center center-h"><strong>C O N T A C T</strong></h1>
+    </div>
+    
+    <div id= "content">        
+        <div class="container">
+
+        <?php
+            if( isset($_SESSION['logged_user'])){
+                require_once 'includes/contact_message.php';
+            }
+            else{
+                #require_once 'includes/contact_message.php';
+                require_once 'includes/contact_form.php';
+            }  
+        ?>
+            
     	   
     	</div>
     </div>

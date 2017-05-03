@@ -274,20 +274,7 @@ body{
         .container{
             margin-left: auto;
             margin-right: auto;  
-            width: 900px;
-        }
-    }
-
-
-    @media (min-width: 1400px)
-    {
-        .container{
-            margin-left: auto;
-            margin-right: auto;  
-            width: 1200px;
-        }
-        body{
-            font-size: 21px; 
+            width: 1000px; 
         }
     }
 
@@ -307,6 +294,40 @@ body{
         width: 100%;
         color: #f9f9f9;
         font-family: Catamaran;
+    }
+
+    .login input[type=password]{
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+        width: 440px;  
+        display: block;
+        border: 1px solid grey;
+        background-color: #fff;
+        border-radius: 2px;
+        text-align: left;
+    }
+
+    .login input[type=text]{
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+        width: 440px;  
+        display: block;
+        border: 1px solid grey;
+        background-color: #fff;
+        border-radius: 2px;
+        text-align: left;
+    }
+
+    .login input[type=submit], input[type=reset]{
+        display: block;
+        background-color: #1058a2;
+        border:none;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: white;
+        margin-top: 15px;
     }
 
 /********************************Member page**********************************/
@@ -439,10 +460,19 @@ body{
         cursor: pointer;
     }
 
+    .subteam-bar{
+        font-size: 24px;
+    }
+
 
 
 /********************************Sponsor page**********************************/
-
+    
+    .sponsors .content{
+        padding-top: 0;
+        margin-top : 0;
+    }
+    
     .sponsors .bannersub{
         margin-top: 80px;
         clear: both;
@@ -467,25 +497,27 @@ body{
 
 /********************************Contact page**********************************/
 
-    
     .contact .banner{
-        background-image: url("images/banner2.jpg");
+        background-image: url("images/sky1.jpg");
+        height: 400px;
     }
 
-    .contact .content{
-        background-position: center 50%;
-        background-size: cover;
-        min-height: 680px;
-        background-image: url("images/banner.jpg");
-        opacity: 0.8;
+    .contact #content{
+        padding-top: 80px;
+        font-size: 15px;
+        background-color: #f9f9f9;
     }
 
-    .shadow{
+
+    .contact .message-box{
         padding: 40px 40px;
+        background-color: #fff;
+        opacity: 0.8;
     }
     
 
     .contact-form{
+        color: grey;
         display: block;
         width: 100%;
         padding: 12px 12px;
@@ -496,9 +528,9 @@ body{
         margin-bottom: 12px;
     }
 
+
     .contact .info p{
-        color: #fff;
-        font-size: 16px;
+        font-size: 20px;
         margin-top: 5px;
         margin-bottom: 20px;
 
@@ -508,10 +540,10 @@ body{
         margin-bottom: 0px;   
     }
 
+
     .contact .bb{
-        margin: 15px;
         padding: 10px 20px;
-        background-color: #333;
+        background-color: grey;
         border: 1px solid #fff;
         color: #f9f9f9;
         font-size: 15px;

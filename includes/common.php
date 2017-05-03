@@ -21,7 +21,7 @@
                       <span class='icon'></span>                        
               </button>
               <img class='img-fluid-h' src='images/ewb_logo.png' alt='logo'>
-              <a href='index.php'>Engineers Without Borders</br>
+              <a href='index.php'>Engineers Without Borders<br>
                   <em class='red'>Cornell University</em>
               </a>
           </div>
