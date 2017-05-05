@@ -53,6 +53,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 wider">
                     
                         <p class="justify"> 
+                        Engineers Without Borders-Cornell is a group of passionate and highly motivated students who aim to create long-lasting solutions to problems in international communities. Members are given the opportunity to nurture their creative and technical expertise by designing and implementing sustainable engineering projects. Through collaboration with communities in developing countries around the world, our members are exposed to diverse cultures while gaining academic experience outside of the classroom environment.
                         </p>
                         <P class="justify">Our growing team of 52 dedicated students includes undergraduate and
                         graduate students from several of Cornell’s colleges including the College of

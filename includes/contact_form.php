@@ -2,8 +2,8 @@
                 <div class="row main">
                     <div class="col-md-3 col-lg-4 info">
                         <p><span class="glyphicon glyphicon-map-marker"></span> Ithaca, NY</p>
-                        <p><span class="glyphicon glyphicon-phone"></span> Phone:+16072299482</p>
-                        <p><span class="glyphicon glyphicon-envelope"></span> Email:ewb@gmail.com</p>
+                        <p><span class="glyphicon glyphicon-phone"></span> Phone: +16072299482</p>
+                        <p><span class="glyphicon glyphicon-envelope"></span> Email: ewbcornell@gmail.com</p>
                         <p><span></span></p>
                     </div>
 
@@ -20,6 +20,13 @@
                             
                             if(!empty($post_name) && !empty($post_email) && !empty($post_subject) && !empty($post_content))
                             {
+
+                                $to = "yw774@cornell.edu";
+                                $subject = $post_email;
+                                $txt = $post_content;
+                                $headers = "Send By ".$post_name."From:".$post_email."\r\n";
+
+                                mail($to,$subject,$txt,$headers);
 
                                 $post_time=date("Y-m-d h:i:sa");
 
@@ -39,7 +46,7 @@
                     ?>
 
                     <div class="col-md-8 col-lg-8">
-                        <form method="post">
+                        <form id="form" name="form" method="post">
                             <div class="row">
                             <div class="col-md-6 col-lg-6">
                                 <input type="text" name="name" placeholder="Name" class="contact-form" required>
