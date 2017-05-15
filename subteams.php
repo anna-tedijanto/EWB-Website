@@ -34,17 +34,9 @@
         commonTop();
     ?> 
     <div class = "bannersub container-fluid">
-        <div class="containersub">
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-3">
-                    <h1 class="center"><strong>SUBTEAMS</strong></h1>
-                    <h2 class="center"><strong>Engineers Without Borders is made up of 
-                        10 subteams that work together to ensure the success of the project team. Our growing team of 52 dedicated students includes undergraduate and
-                        graduate students from several of Cornell’s colleges.
-                        and Life Sciences.</strong></h2>
-                </div>
-            </div>
-        </div>
+        <h1 class = "center center-h">
+            <strong>SUBTEAMS</strong>
+        </h1>
     </div>
     <div id = "content">        
         <div class="container">

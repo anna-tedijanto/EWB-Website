@@ -417,14 +417,21 @@ body{
 }
 /********************************Subteam page**********************************/
 
-    .bannersub{
-        margin-top: 80px;
-        clear: both;
-        background: url("images/groupb.jpg");
-        background-position: center 50%;
-        background-size: cover;
-        height: 400px;
+    .bannersub {
+    margin-top: 80px;
+    clear: both;
+    background: url(images/groupb.jpg);
+    background-position: center 55%;
+    background-size: cover;
+    height: 400px;
     }
+
+    .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        }
 
     .bannersub h1{
         font-size: 55px;
@@ -432,22 +439,6 @@ body{
         color: #f9f9f9;
         font-family: Catamaran;
         margin-top: 0px;
-    }
-
-    .bannersub h2{
-        font-size: 22px;
-        width: 100%;
-        color: #f9f9f9;
-        font-family: Proxima Nova;
-        margin-top: 0px;
-    }
-
-    .containersub {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 115px;
     }
 
     input[type=button], input[type=submit], input[type=reset] {
