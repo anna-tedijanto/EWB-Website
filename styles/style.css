@@ -543,6 +543,13 @@ body{
     .sponsors a:hover{
         border-bottom-color: #1058a2;
     }
+    .sponsors .content a{
+        border-style: solid;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-bottom-color: transparent;
+    }
 
 
 /********************************Contact page**********************************/

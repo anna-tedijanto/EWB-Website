@@ -45,7 +45,6 @@ function collapseAllBut(ref, total) {
     }
   })
   .done(function(result) {
-    console.log(result);
     var perrow = getperrow();
     var after = Math.min((Math.floor((ref-1)/perrow)+1)*perrow, total);
     if ($('.member-detail').data('id') == ref) {

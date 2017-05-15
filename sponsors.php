@@ -48,15 +48,57 @@
             <hr>
             <h1 class="center"><strong>Platinum Sponsors</strong></h1>
             <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 wider">
+                        <a href="http://www.greatlakescheese.com/" target = '_blank'><img class="img-fluid" src="images/logo-glc.png" alt = "plat-spon-1"></a>
+                    </div>
+                </div>
+            </div>
             <hr>
             <h1 class="center"><strong>Gold Sponsors</strong></h1>
             <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 wider">
+                        <a href="http://www.millerandlong.com/" target = '_blank'><img class="img-fluid" src="images/long-logo.png" alt = "gold-spon-1"></a>
+                    </div>
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 wider">
+                        <a href="http://tetratech-ae.com/" target = '_blank'><img class="img-fluid" src="images/logo-tetra.png" alt = "gold-spon-2"></a>
+                    </div>
+                </div>
+            </div>
             <hr>
             <h1 class="center"><strong>Silver Sponsors</strong></h1>
             <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 wider">
+                        <a href="http://www.ey.com/" target = '_blank'><img class="img-fluid" src="images/logo-ey.png" alt = "sil-spon-1"></a>
+                    </div>
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 wider">
+                        <a href="http://www.growmarkfs.com/Pages/default.aspx" target = '_blank'><img class="img-fluid" src="images/logo-fs.png" alt = "sil-spon-2"></a>
+                    </div>
+                </div>
+            </div>
             <hr>
             <h1 class="center"><strong>Bronze Sponsors</strong></h1>
             <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 wider">
+                        <a href="https://www.microsoft.com/en-us/" target = '_blank'><img class="img-fluid" src="images/logo-micro.jpg" alt = "bro-spon-1"></a>
+                    </div>
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 wider">
+                        <a href="https://www.stickermule.com/" target = '_blank'><img class="img-fluid" src="images/logo-mule.png" alt = "bro-spon-2"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 wider">
+                        <a href="https://insomniacookies.com/" target = '_blank'><img class="img-fluid" src="images/logo-in.png" alt = "bro-spon-3"></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div><!--end content div-->
     <?php
