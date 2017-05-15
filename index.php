@@ -40,10 +40,57 @@
     <?php
         commonTop();
     ?> 
+        <!-- Full Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('styles/images/hike.jpg');">
+                    <h1 class="center center-h white"><strong>ENGINEERS WITHOUT BORDERS</strong></h1>
+                </div>
+               
+                    
+                
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('styles/images/van2.jpg');">
+                    <h1 class="center center-h white"><strong>ENGINEERS WITHOUT BORDERS</strong></h1>
+                </div>
+                
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('styles/images/bridge.jpg');">
+                    <h1 class="center center-h white"><strong>ENGINEERS WITHOUT BORDERS</strong></h1>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+    <!--- banner>
     <div class = "banner container-fluid">
         <h1 class="center center-h"><strong>ENGINEERS WITHOUT BORDERS</strong></h1>
     </div>
+    < !-->
+
     <div id = "content">        
         <div class="container">
             <div class="row">
@@ -157,7 +204,17 @@
     </div>
     <?php
         commonBottom();
-    ?> 
+    ?>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="scripts/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 3000 //changes the speed
+    })
+    </script>
 
     
 </body>    
