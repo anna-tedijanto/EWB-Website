@@ -6,7 +6,7 @@ body{
     margin: 0;
     font-family: Proxima Nova;
     color: grey;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 /**********************************clear********************************/
@@ -72,8 +72,8 @@ body{
 
     /* with wider left&right padding */
     .wider{
-        padding-left: 35px;
-        padding-right: 35px; 
+        padding-left: 15px;
+        padding-right: 15px; 
     }
 
     /* with wider distance between row and row*/
@@ -296,7 +296,7 @@ body{
         .container{
             margin-left: auto;
             margin-right: auto;  
-            width: 1000px; 
+            width: 875px; 
         }
     }
 
@@ -504,9 +504,16 @@ body{
     }
 
     .subteam-bar{
-        font-size: 22px;
+        font-size: 18px;
+    }
+    
+    .subteam-bar .active {
+        height: 53px;
     }
 
+    .tab-content .row{
+        margin-bottom: 15px;   
+    }
 
 
 /********************************Sponsor page**********************************/
