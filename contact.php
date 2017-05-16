@@ -64,7 +64,9 @@
     	   
     	</div>
     </div>
-
+    <?php
+        commonBottom();
+    ?> 
     
 </body>    
 
