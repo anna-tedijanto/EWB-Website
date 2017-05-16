@@ -586,11 +586,19 @@ body{
         padding: 25px;
     }
 
+    @media (max-width: 991px)
+    {
+        .sponsors img {
+            padding-top: 30px;
+        }
+    }
+
 
 /********************************Contact page**********************************/
 
     .contact .banner{
-        background-image: url("images/sky1.jpg");
+        background-image: url("images/hiking.jpg");
+        background-position: center 50%;
         height: 400px;
     }
 

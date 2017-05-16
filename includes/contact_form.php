@@ -2,7 +2,6 @@
                 <div class="row main">
                     <div class="col-md-3 col-lg-4 info">
                         <p><span class="glyphicon glyphicon-map-marker"></span> Ithaca, NY</p>
-                        <p><span class="glyphicon glyphicon-phone"></span> Phone: +16072299482</p>
                         <p><span class="glyphicon glyphicon-envelope"></span> Email: ewbcornell@gmail.com</p>
                         <p><span></span></p>
                     </div>
