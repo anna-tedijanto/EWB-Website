@@ -39,7 +39,7 @@
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
                         <h1 class="center"><strong>SPONSORS</strong></h1>
-                        <h2 class="center"><strong>The team depends on the generous support of its sponsors and could not exist without them. To become a member of the EWB sponsor group, we ask that you make a contribution to help support us in our endeavors.<br><br><a href="includes/sponsors.pdf" target = '_blank'>Sponsorship Packet</a</h2>
+                        <h2 class="center"><strong>The team depends on the generous support of its sponsors and could not exist without them. To become a member of the EWB sponsor group, we ask that you make a contribution to help support us in our endeavors.<br><br><a href="includes/sponsors.pdf" target = '_blank'>Sponsorship Packet</a></h2>
                     </div>
                 </div>
             </div>
