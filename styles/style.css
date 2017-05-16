@@ -473,7 +473,7 @@ body{
         margin-top: 80px;
         clear: both;
         background: url("images/team.jpg");
-        background-position: center 65%;
+        background-position: center 60%;
         background-size: cover;
         height: 400px;
     }
@@ -491,7 +491,7 @@ body{
     margin-top: 80px;
     clear: both;
     background: url(images/group2.jpg);
-    background-position: center 40%;
+    background-position: center 43%;
     background-size: cover;
     height: 400px;
     }
