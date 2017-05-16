@@ -105,6 +105,7 @@
             <h1 class="center"><strong>Bronze Sponsors</strong></h1>
             <hr>
             <div class="container">
+            <div class="bronze">
                 <div class="row">
                     <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 wider">
                         <a href="https://www.microsoft.com/en-us/" target = '_blank'><img class="img-fluid" src="images/logo-micro.jpg" alt = "bro-spon-1"></a>
@@ -118,6 +119,7 @@
                         <a href="https://insomniacookies.com/" target = '_blank'><img class="img-fluid" src="images/logo-in.png" alt = "bro-spon-3"></a>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div><!--end content div-->
