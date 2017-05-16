@@ -44,22 +44,22 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 align="center" wider">
                 <div class="subteam-bar">
                   <ul class="nav nav-tabs">
-                    <li><a data-toggle="tab" href="#bus-des">Business and Design</a></li>
-                    <li><a data-toggle="tab" href="#cr">Costa Rica</a></li>
-                    <li><a data-toggle="tab" href="#bo">Bolivia</a></li>
-                    <li><a data-toggle="tab" href="#bing">Binghamton</a></li>
-                    <li><a data-toggle="tab" href="#con">Construction</a></li>
+                    <li class = "active"><a data-toggle="tab" href="#bus-des">Business and Design</a></li>
+                    <li class><a data-toggle="tab" href="#cr">Costa Rica</a></li>
+                    <li class><a data-toggle="tab" href="#bo">Bolivia</a></li>
+                    <li class><a data-toggle="tab" href="#bing">Binghamton</a></li>
+                    <li class><a data-toggle="tab" href="#con">Construction</a></li>
                   </ul>
                 </div>
             </div>
           </div>
               <div class="tab-content">
-                <div id="bus-des" class="tab-pane fade">
+                <div id="bus-des" class="tab-pane active">
                 <div class="row">
                     <h1 class="wider grey"><strong>Business and Design</strong></h1>
                   </div><!--end row div-->
                   <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 wider">
                             <p class="justify">The Business and Design Team focus on financing EWB's projects by running
                                 events and raising awareness about the organization on Cornell's campus and in the 
                                 Ithaca area.
@@ -69,15 +69,15 @@
                                 and alumni to keep them informed about and involved with the team.
                             </p>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 wider">
                         <img class="img-fluid" src="images/skate1.jpg" alt="team">
                     </div>
                   </div><!--end row div-->
                   <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 wider">
                         <img class="img-fluid" src="images/Design1.jpg" alt="team">
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wider">
                             <p class="justify">The design side of the team concentrates on branding by developing 
                                 and managing all of the team's promotional material. This includes designing all the 
                                 advertising material for events and maintaining an online prescence through our website and social media pages. 
@@ -93,7 +93,7 @@
                     <h1 class="wider grey"><strong>Upala, Costa Rica</strong></h1>
                   </div><!--end row div-->
                   <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 wider">
                             <p class="justify">Our second international project will be in Upala, 
                                 Costa Rica! We have partnered with CENDEROS, a Costa Rican non-profit 
                                 organization which addresses the lack of opportunities for Nicaraguan 
@@ -106,7 +106,7 @@
                                 and are researching these areas in order to have a successful assessment trip.
                             </p>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 wider">
                         <img class="img-fluid" src="images/costa.jpg" alt="team">
                     </div>
                   </div><!--end row div-->
@@ -122,7 +122,7 @@
                     <h1 class="wider grey"><strong>Calcha, Bolivia</strong></h1>
                   </div><!--end row div-->
                   <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 wider">
                         
                             <p class="justify">Our team partnered with the community of Calcha, Bolivia in 2013 for 
                                 our first project as an EWB chapter. Through the help of an NGO in Bolivia, Engineers 
@@ -135,15 +135,15 @@
                                 now with the bridge the community has year-round access.
                             </p>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 wider">
                         <img class="img-fluid" src="images/calcha.jpg" alt="team">
                     </div>
                 </div><!--end row div-->
                 <div class=row>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 wider">
                         <img class="img-fluid" src="images/bridge3.jpg" alt="team">
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wider">
                         <p class="justify">
                                 In the summer of 2017 we shifted our focus to improve the communities water access.
                                 We lengthened and lined their irrigation channels to increase water flow, fixed the tiling in their water storage tank, and 
@@ -162,7 +162,7 @@
                     <h1 class="wider grey"><strong>Binghamton, New York</strong></h1>
                   </div><!--end row div-->
                   <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 wider">
                             <p class="justify">The Binghamton, NY Team is working on our first domestic project! 
                                 We have partnered with Every1s Home to design and build prototypes of portable 
                                 trailer homes, called E-Pods. Homelessness is major problem in large cities and 
@@ -173,7 +173,7 @@
                                 on constructing our first prototype in fall 2017. 
                             </p>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 wider">
                         <img class="img-fluid" src="images/homeless.jpg" alt="team">
                     </div>
                   </div><!--end row div-->
@@ -189,7 +189,7 @@
                     <h1 class="wider grey"><strong>Construction</strong></h1>
                   </div><!--end row div-->
                   <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 wider">
                             <p class="justify">The Construction Management Team works closely with all of our community-based teams 
                                 to design and implement their projects. They plan technical workshops to train our 
                                 team members in skills necessary for project assessment and implementation, including 
@@ -199,7 +199,7 @@
                                 our projects will be well-constructed, sustainably sourced, and within our budget.
                             </p>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 wider">
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 wider">
                         <img class="img-fluid" src="images/construction.jpg" alt="team">
                     </div>
                   </div><!--end row div-->

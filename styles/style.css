@@ -308,6 +308,15 @@ body{
         }
     }
 
+    @media (min-width: 992px)
+    {
+        .container{
+            margin-left: auto;
+            margin-right: auto;  
+            width: 875px; 
+        }
+    }
+
 
 /********************************About page**********************************/
 
@@ -462,8 +471,8 @@ body{
     .bannermem{
         margin-top: 80px;
         clear: both;
-        background: url("images/team1.jpg");
-        background-position: center 55%;
+        background: url("images/team.jpg");
+        background-position: center 65%;
         background-size: cover;
         height: 400px;
     }
@@ -523,6 +532,13 @@ body{
         margin-bottom: 15px;   
     }
 
+    @media (max-width: 991px)
+    {
+        .subteam-bar{
+        font-size: 19px;
+        }
+    }
+
 
 /********************************Sponsor page**********************************/
     
@@ -534,8 +550,8 @@ body{
     .sponsors .bannersub{
         margin-top: 80px;
         clear: both;
-        background: url("images/hike1b.jpg");
-        background-position: center 50%;
+        background: url("images/tree.jpg");
+        background-position: center 40%;
         background-size: cover;
         height: 400px;
     }
@@ -544,15 +560,16 @@ body{
     }
 
     .sponsors .content .content2 a{
-        color: grey;
+        color: #f9f9f9;
         border-style: solid;
-        border-top: transparent;
-        border-left: transparent;
-        border-right: transparent;
-        border-bottom-color: #b31b1b;
+        border-color: #b31b1b;
+        background-color: #b31b1b;
+        padding: 10px 20px;
+        border-radius: 5px;
     }
     .sponsors .content .content2 a:hover{
-        border-bottom-color: #1058a2;
+        background-color: #1058a2;
+        border-color: #1058a2;
     }
     .sponsors .content a{
         border-style: solid;
