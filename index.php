@@ -112,7 +112,6 @@
                 
                 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 wider">
                     <img class="img-fluid" src="images/team.jpg" alt="team">
-                    <img class="img-fluid" src="images/pie_chart.png" alt="pie">
                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-7">
                     <?php 
                     if (!isset($_SESSION['logged_user']) && (empty($username) || empty($password))){

@@ -112,7 +112,7 @@
             <hr>
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-1 wider">
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 wider">
                         <a href="http://www.ey.com/" target = '_blank'><img class="img-fluid" src="images/logo-ey.png" alt = "sil-spon-1"></a>
                     </div>
                     <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-4 col-lg-3 col-lg-offset-4 wider">
