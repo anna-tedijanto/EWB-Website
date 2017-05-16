@@ -39,12 +39,32 @@
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
                         <h1 class="center"><strong>SPONSORS</strong></h1>
-                        <h2 class="center"><strong>The team depends on the generous support of its sponsors and could not exist without them. To become a member of the EWB sponsor group, we ask that you make a contribution to help support us in our endeavors.<br><br><a href="includes/sponsors.pdf" target = '_blank'>Sponsorship Packet</a></h2>
                     </div>
                 </div>
             </div>
         </div>
         <div class= "content">
+        <div class= "content2">
+           <div class="container">
+            <div class="row">
+                <h1 class="wider blue"><strong><br>EWB Sponsorship</strong></h1>
+            </div> 
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 wider">
+                    
+                        <p class="justify"> 
+                        Engineers Without Borders-Cornell is a group of passionate and highly motivated students who aim to create long-lasting solutions to problems in international communities. Members are given the opportunity to nurture their creative and technical expertise by designing and implementing sustainable engineering projects. Through collaboration with communities in developing countries around the world, our members are exposed to diverse cultures while gaining academic experience outside of the classroom environment.
+                        </p>
+                        <h2 class="center"><br><a href="includes/sponsors.pdf" target = '_blank'>Sponsorship Packet</a></h2>
+                        
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 wider">
+                    <img class="img-fluid" src="images/van.jpg" alt="team">
+                    </div>
+                </div>
+            </div>
+            </div>
             <hr>
             <h1 class="center"><strong>Platinum Sponsors</strong></h1>
             <hr>

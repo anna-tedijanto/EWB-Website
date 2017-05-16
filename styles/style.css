@@ -540,18 +540,18 @@ body{
         height: 400px;
     }
     .sponsors .containersub{
-        margin-top: 115px;
+        margin-top: 170px;
     }
 
-    .sponsors a{
-        color: #f9f9f9;
+    .sponsors .content .content2 a{
+        color: grey;
         border-style: solid;
         border-top: transparent;
         border-left: transparent;
         border-right: transparent;
         border-bottom-color: #b31b1b;
     }
-    .sponsors a:hover{
+    .sponsors .content .content2 a:hover{
         border-bottom-color: #1058a2;
     }
     .sponsors .content a{
@@ -562,7 +562,7 @@ body{
         border-bottom-color: transparent;
     }
     .sponsors h2{
-        color: white;
+        color: grey;
         font-size: 22px;
     }
 
