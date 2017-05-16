@@ -6,7 +6,7 @@ body{
     margin: 0;
     font-family: Proxima Nova;
     color: grey;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 /**********************************clear********************************/
@@ -51,6 +51,14 @@ body{
         text-align: justify; 
     }
 
+    .left {
+        text-align: left; 
+    }
+
+    .right {
+        text-align: right; 
+    }
+
     /* parallel - center */
     .center {
         text-align: center;
@@ -72,8 +80,8 @@ body{
 
     /* with wider left&right padding */
     .wider{
-        padding-left: 35px;
-        padding-right: 35px; 
+        padding-left: 15px;
+        padding-right: 15px; 
     }
 
     /* with wider distance between row and row*/
@@ -296,7 +304,16 @@ body{
         .container{
             margin-left: auto;
             margin-right: auto;  
-            width: 1000px; 
+            width: 875px; 
+        }
+    }
+
+    @media (min-width: 992px)
+    {
+        .container{
+            margin-left: auto;
+            margin-right: auto;  
+            width: 875px; 
         }
     }
 
@@ -455,8 +472,8 @@ body{
     .bannermem{
         margin-top: 80px;
         clear: both;
-        background: url("images/team1.jpg");
-        background-position: center 55%;
+        background: url("images/team.jpg");
+        background-position: center 65%;
         background-size: cover;
         height: 400px;
     }
@@ -470,14 +487,21 @@ body{
     }
 /********************************Subteam page**********************************/
 
-    .bannersub{
-        margin-top: 80px;
-        clear: both;
-        background: url("images/groupb.jpg");
-        background-position: center 50%;
-        background-size: cover;
-        height: 400px;
+    .bannersub {
+    margin-top: 80px;
+    clear: both;
+    background: url(images/group2.jpg);
+    background-position: center 40%;
+    background-size: cover;
+    height: 400px;
     }
+
+    .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        }
 
     .bannersub h1{
         font-size: 55px;
@@ -485,22 +509,6 @@ body{
         color: #f9f9f9;
         font-family: Catamaran;
         margin-top: 0px;
-    }
-
-    .bannersub h2{
-        font-size: 22px;
-        width: 100%;
-        color: #f9f9f9;
-        font-family: Proxima Nova;
-        margin-top: 0px;
-    }
-
-    .containersub {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 115px;
     }
 
     input[type=button], input[type=submit], input[type=reset] {
@@ -514,9 +522,23 @@ body{
     }
 
     .subteam-bar{
-        font-size: 22px;
+        font-size: 24px;
+    }
+    
+    .subteam-bar .active {
+        height: 53px;
     }
 
+    .tab-content .row{
+        margin-bottom: 15px;   
+    }
+
+    @media (max-width: 991px)
+    {
+        .subteam-bar{
+        font-size: 19px;
+        }
+    }
 
 
 /********************************Sponsor page**********************************/
@@ -529,36 +551,61 @@ body{
     .sponsors .bannersub{
         margin-top: 80px;
         clear: both;
-        background: url("images/hike1b.jpg");
-        background-position: center 50%;
+        background: url("images/tree.jpg");
+        background-position: center 40%;
         background-size: cover;
         height: 400px;
     }
+    .sponsors .containersub{
+        margin-top: 170px;
+    }
 
-    .sponsors a{
+    .sponsors .content .content2 a{
         color: #f9f9f9;
+        border-style: solid;
+        border-color: #b31b1b;
+        background-color: #b31b1b;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .sponsors .content .content2 a:hover{
+        background-color: #1058a2;
+        border-color: #1058a2;
+    }
+    .sponsors .content a{
         border-style: solid;
         border-top: transparent;
         border-left: transparent;
         border-right: transparent;
-        border-bottom-color: #b31b1b;
+        border-bottom-color: transparent;
     }
-    .sponsors a:hover{
-        border-bottom-color: #1058a2;
+    .sponsors h2{
+        color: grey;
+        font-size: 22px;
+    }
+    .bronze img{
+        padding: 25px;
+    }
+
+    @media (max-width: 991px)
+    {
+        .sponsors img {
+            padding-top: 30px;
+        }
     }
 
 
 /********************************Contact page**********************************/
 
     .contact .banner{
-        background-image: url("images/sky1.jpg");
+        background-image: url("images/hiking.jpg");
+        background-position: center 50%;
         height: 400px;
     }
 
     .contact #content{
         padding-top: 80px;
         font-size: 15px;
-        background-color: #f9f9f9;
     }
 
 
@@ -576,7 +623,7 @@ body{
         padding: 12px 12px;
         font-size: 15px;
         color: #555;
-        background-color: #fff;
+        background-color: #f9f9f9;
         border: 1px solid #ccc;
         margin-bottom: 12px;
     }

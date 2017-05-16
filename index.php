@@ -97,7 +97,7 @@
                 <h1 class="wider blue"><strong>ABOUT US</strong></h1>
             </div> 
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 wider">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 wider">
                     
                         <p class="justify"> 
                         Engineers Without Borders-Cornell is a group of passionate and highly motivated students who aim to create long-lasting solutions to problems in international communities. Members are given the opportunity to nurture their creative and technical expertise by designing and implementing sustainable engineering projects. Through collaboration with communities in developing countries around the world, our members are exposed to diverse cultures while gaining academic experience outside of the classroom environment.
@@ -110,9 +110,8 @@
                         </p>
                 </div>
                 
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 wider">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 wider">
                     <img class="img-fluid" src="images/team.jpg" alt="team">
-                    <img class="img-fluid" src="images/pie_chart.png" alt="pie">
                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-7">
                     <?php 
                     if (!isset($_SESSION['logged_user']) && (empty($username) || empty($password))){
