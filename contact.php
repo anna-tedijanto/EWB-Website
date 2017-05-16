@@ -45,7 +45,7 @@
     ?> 
 
     <div class = "banner container-fluid">
-        <h1 class="center center-h"><strong>C O N T A C T</strong></h1>
+        <h1 class="center center-h"><strong>CONTACT US</strong></h1>
     </div>
     
     <div id= "content">        
