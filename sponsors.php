@@ -105,21 +105,19 @@
             <h1 class="center"><strong>Bronze Sponsors</strong></h1>
             <hr>
             <div class="container">
-            <div class="bronze">
+             <div class="bronze">
                 <div class="row">
-                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 wider">
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0 wider">
                         <a href="https://www.microsoft.com/en-us/" target = '_blank'><img class="img-fluid" src="images/logo-micro.jpg" alt = "bro-spon-1"></a>
                     </div>
-                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-4 col-lg-3 col-lg-offset-4 wider">
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0 wider">
+                        <a href="https://insomniacookies.com/" target = '_blank'><img class="img-fluid" src="images/logo-in.png" alt = "bro-spon-3"></a>
+                    </div>
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0 wider">
                         <a href="https://www.stickermule.com/" target = '_blank'><img class="img-fluid" src="images/logo-mule.png" alt = "bro-spon-2"></a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 wider">
-                        <a href="https://insomniacookies.com/" target = '_blank'><img class="img-fluid" src="images/logo-in.png" alt = "bro-spon-3"></a>
-                    </div>
                 </div>
-            </div>
             </div>
         </div>
     </div><!--end content div-->
