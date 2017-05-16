@@ -1,5 +1,4 @@
 <?php
-  session_start();
   function commonHeader() {
     print("
       <meta charset='utf-8'>

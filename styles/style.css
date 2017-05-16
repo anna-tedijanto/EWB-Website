@@ -306,7 +306,7 @@ body{
     .carousel,
     .item,
     .active {
-        height: 650px;
+        height: 550px;
     }
 
     .carousel-inner {
@@ -318,11 +318,12 @@ body{
     .fill {
         width: 100%;
         height: 100%;
-        background-position: center;
+        background-position: center 70%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
         -o-background-size: cover;
+
     }
 
     .fill h1{
