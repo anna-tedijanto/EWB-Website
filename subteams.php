@@ -70,12 +70,12 @@
                             </p>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 wider">
-                        <img class="img-fluid" src="images/skate1.jpg" alt="team">
+                        <img class="img-fluid" src="images/skate.jpg" alt="team">
                     </div>
                   </div><!--end row div-->
                   <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 wider">
-                        <img class="img-fluid" src="images/Design1.jpg" alt="team">
+                        <img class="img-fluid" src="images/design.jpg" alt="team">
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wider">
                             <p class="justify">The design side of the team concentrates on branding by developing 
