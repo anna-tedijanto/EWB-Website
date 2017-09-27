@@ -1,10 +1,32 @@
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/Proxima Nova Alt Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/Proxima Nova Alt Regular Italic.otf') format('opentype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Catamaran';
+	src: url('../fonts/Catamaran-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
 html{
     background-color: #f9f9f9;
 }
 
 body{
     margin: 0;
-    font-family: Proxima Nova;
+    font-family: 'Proxima Nova';
     color: grey;
     font-size: 17px;
 }
@@ -29,7 +51,7 @@ body{
     ul{
         padding: 0px;
     }
-    
+
 
 /**********************************usual********************************/
 
@@ -48,15 +70,15 @@ body{
     /*************text adjust*****************/
 
     .justify {
-        text-align: justify; 
+        text-align: justify;
     }
 
     .left {
-        text-align: left; 
+        text-align: left;
     }
 
     .right {
-        text-align: right; 
+        text-align: right;
     }
 
     /* parallel - center */
@@ -65,7 +87,7 @@ body{
     }
 
     /* vertical - center */
-    /*the prarent node should better have a fixed height 
+    /*the prarent node should better have a fixed height
     and be relateive/fix/absolute*/
     .center-h{
         position: relative;
@@ -81,7 +103,7 @@ body{
     /* with wider left&right padding */
     .wider{
         padding-left: 15px;
-        padding-right: 15px; 
+        padding-right: 15px;
     }
 
     /* with wider distance between row and row*/
@@ -100,7 +122,7 @@ body{
     }
 
     .red{
-        color: #b31b1b; 
+        color: #b31b1b;
     }
 
     .blue a{
@@ -114,7 +136,7 @@ body{
     .nav-head{
         height: 100%;
         float: left;
-        padding: 2px 45px 2px 25px; 
+        padding: 2px 45px 2px 25px;
     }
 
     .nav-head > *{
@@ -133,7 +155,7 @@ body{
 
     .nav-right li{
         float: left;
-        margin-left: 42px;    
+        margin-left: 42px;
     }
 
     .nav-toggle{
@@ -158,7 +180,7 @@ body{
     /****************top nav detail**********************/
     .topnav {
         /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)*/;
-        border-bottom:  1px solid #f2f2f2; 
+        border-bottom:  1px solid #f2f2f2;
         background-color: #f9f9f9;
         width: 100%;
         position: fixed;
@@ -167,7 +189,7 @@ body{
         height: 80px;
         font-size: 20px;
         padding: 0px;
-    
+
     }
 
     .topnav .nav-head {
@@ -175,7 +197,7 @@ body{
     }
     .topnav .nav-head a{
         margin-top: 10px;
-        margin-bottom: 10px; 
+        margin-bottom: 10px;
     }
 
     /* Change the color of links on hover */
@@ -186,7 +208,7 @@ body{
     /* Add a color to the active/current link */
     .topnav .nav-right a:active {
         border-bottom: 2px solid #b31b1b;
-        
+
     }
 
     .topnav .nav-right a.active{
@@ -195,7 +217,7 @@ body{
 
     .topnav .nav-right li{
         margin-top: 25px;
-        margin-bottom: 25px; 
+        margin-bottom: 25px;
     }
 
 
@@ -235,7 +257,7 @@ body{
         }
 
         .topnav .nav-head{
-            border-bottom: 1px solid #fff; 
+            border-bottom: 1px solid #fff;
             float: none;
         }
 
@@ -251,22 +273,22 @@ body{
             height: 100%;
             margin: 0;
             padding-top: 10px;
-            padding-bottom: 10px; 
+            padding-bottom: 10px;
         }
 
 
         .topnav .nav-right a.active {
             border-bottom: 0px solid #b31b1b;
-            color: #b31b1b; 
+            color: #b31b1b;
 
-        
+
         }
 
         .topnav .nav-right li{
             background-color: #f9f9f9;
             display: block;
             float: none;
-            border-bottom: 1px solid #fff; 
+            border-bottom: 1px solid #fff;
             margin: 0;
             padding: 20px 55px;
         }
@@ -280,10 +302,10 @@ body{
             border-style: none;
         }
 
-        
 
 
-        
+
+
     }
 
 
@@ -296,15 +318,15 @@ body{
     .content {
         margin-top: 80px;
         padding: 2.4em 0;
-        width: 100%;   
+        width: 100%;
     }
 
     @media (min-width: 1200px)
     {
         .container{
             margin-left: auto;
-            margin-right: auto;  
-            width: 875px; 
+            margin-right: auto;
+            width: 875px;
         }
     }
 
@@ -312,8 +334,8 @@ body{
     {
         .container{
             margin-left: auto;
-            margin-right: auto;  
-            width: 875px; 
+            margin-right: auto;
+            width: 875px;
         }
     }
 
@@ -347,7 +369,7 @@ body{
         font-size: 55px;
         width: 100%;
         color: #f9f9f9;
-        font-family: Catamaran;
+        font-family: 'Catamaran';
     }
 
     .banner{
@@ -363,14 +385,14 @@ body{
         font-size: 55px;
         width: 100%;
         color: #f9f9f9;
-        font-family: Catamaran;
+        font-family: 'Catamaran';
     }
 
     .login input[type=password]{
         box-sizing: border-box;
         margin-bottom: 10px;
         padding: 5px 5px;
-        width: 440px;  
+        width: 440px;
         display: block;
         border: 1px solid grey;
         background-color: #fff;
@@ -382,7 +404,7 @@ body{
         box-sizing: border-box;
         margin-bottom: 10px;
         padding: 5px 5px;
-        width: 440px;  
+        width: 440px;
         display: block;
         border: 1px solid grey;
         background-color: #fff;
@@ -482,7 +504,7 @@ body{
         font-size: 55px;
         width: 100%;
         color: #f9f9f9;
-        font-family: Catamaran;
+        font-family: 'Catamaran';
         margin-top: 0px;
     }
 /********************************Subteam page**********************************/
@@ -490,7 +512,7 @@ body{
     .bannersub {
     margin-top: 80px;
     clear: both;
-    background: url(images/group2.jpg);
+    background: url("images/group2.JPG");
     background-position: center 43%;
     background-size: cover;
     height: 400px;
@@ -507,7 +529,7 @@ body{
         font-size: 55px;
         width: 100%;
         color: #f9f9f9;
-        font-family: Catamaran;
+        font-family: 'Catamaran';
         margin-top: 0px;
     }
 
@@ -524,13 +546,13 @@ body{
     .subteam-bar{
         font-size: 24px;
     }
-    
+
     .subteam-bar .active {
         height: 53px;
     }
 
     .tab-content .row{
-        margin-bottom: 15px;   
+        margin-bottom: 15px;
     }
 
     @media (max-width: 991px)
@@ -542,16 +564,17 @@ body{
 
 
 /********************************Sponsor page**********************************/
-    
+
     .sponsors .content{
         padding-top: 0;
         margin-top : 0;
     }
-    
+
     .sponsors .bannersub{
         margin-top: 80px;
         clear: both;
-        background: url("images/tree.jpg");
+      /*  background: url("../images/sponsorsHead.jpg");*/
+        background: url("images/tree.JPG");
         background-position: center 40%;
         background-size: cover;
         height: 400px;
@@ -595,28 +618,28 @@ body{
     }
 
 
-/********************************Contact page**********************************/
+/********************************recruitment page**********************************/
 
-    .contact .banner{
-        background-image: url("images/hiking.jpg");
+    .recruitment .banner{
+        background-image: url("images/hiking.JPG");
         background-position: center 50%;
         height: 400px;
     }
 
-    .contact #content{
+    .recruitment #content{
         padding-top: 80px;
         font-size: 15px;
     }
 
 
-    .contact .message-box{
+    .recruitment .message-box{
         padding: 40px 40px;
         background-color: #fff;
         opacity: 0.8;
     }
-    
 
-    .contact-form{
+
+    .recruitment-form{
         color: grey;
         display: block;
         width: 100%;
@@ -629,7 +652,7 @@ body{
     }
 
 
-    .contact .info p{
+    .recruitment .info p{
         font-size: 20px;
         margin-top: 5px;
         margin-bottom: 20px;
@@ -637,11 +660,11 @@ body{
     }
 
     form .row{
-        margin-bottom: 0px;   
+        margin-bottom: 0px;
     }
 
 
-    .contact .bb{
+    .recruitment .bb{
         padding: 10px 20px;
         background-color: grey;
         border: 1px solid #fff;
@@ -649,12 +672,90 @@ body{
         font-size: 15px;
     }
 
-    .contact .bb:hover{
+    .recruitment .bb:hover{
         border: 1px solid #333;
         background-color: #fff;
-        color: #555;   
+        color: #555;
     }
 
+    .recruitment {
+      font-size: 20px;
+      text-align: center;
+    }
+    .recHead {
+      font-size: 30px;
+      color: #1058a2;
+      text-align:center;
+      padding-bottom: 25px;
+    }
+
+	/********************************contact page**********************************/
+
+		    .contact .banner{
+		        background-image: url("images/hiking.JPG");
+		        background-position: center 50%;
+		        height: 400px;
+		    }
+
+		    .contact #content{
+		        padding-top: 80px;
+		        font-size: 15px;
+		    }
 
 
+		    .contact .message-box{
+		        padding: 40px 40px;
+		        background-color: #fff;
+		        opacity: 0.8;
+		    }
 
+
+		    .contact-form{
+		        color: grey;
+		        display: block;
+		        width: 100%;
+		        padding: 12px 12px;
+		        font-size: 15px;
+		        color: #555;
+		        background-color: #f9f9f9;
+		        border: 1px solid #ccc;
+		        margin-bottom: 12px;
+		    }
+
+
+		    .contact .info p{
+		        font-size: 20px;
+		        margin-top: 5px;
+		        margin-bottom: 20px;
+
+		    }
+
+		    form .row{
+		        margin-bottom: 0px;
+		    }
+
+
+		    .contact .bb{
+		        padding: 10px 20px;
+		        background-color: grey;
+		        border: 1px solid #fff;
+		        color: #f9f9f9;
+		        font-size: 15px;
+		    }
+
+		    .contact .bb:hover{
+		        border: 1px solid #333;
+		        background-color: #fff;
+		        color: #555;
+		    }
+
+		    .contact {
+		      font-size: 20px;
+		      text-align: center;
+		    }
+		    .recHead {
+		      font-size: 30px;
+		      color: #1058a2;
+		      text-align:center;
+		      padding-bottom: 25px;
+		    }
