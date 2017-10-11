@@ -455,7 +455,10 @@ body{
       height: auto;
     }
 
+
     .team-member-photo {
+			max-width: 100%;
+			height: auto;
     }
 
     .selected-team-member{
@@ -759,3 +762,41 @@ body{
 		      text-align:center;
 		      padding-bottom: 25px;
 		    }
+
+
+
+/***----------------------------------------MEMBERS----------------------------------------***/
+	.bio-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: rgba(245, 245, 245, 0.60);
+	}
+
+	.team-member{
+		cursor: pointer;
+		margin-bottom: 30px;
+	}
+
+	.team-member-mouseover-box{
+		/* hack to avoid overflow */
+		bottom:30px;
+    top:0;
+    left:15px;
+    right:15px;
+		position: absolute;
+		transition: all 250ms ease;
+	}
+
+	.team-member-mouseover-box:hover{
+		background: rgba(96,125,139,.4);
+		box-shadow: inset 0 0 0 1px #607d8b;
+	}
+
+	.selected-team-member{
+		border:thin solid #607d8b;
+	}
+
+	/*.container img{
+		width: 300px;
+	}*/

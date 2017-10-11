@@ -25,6 +25,7 @@
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
     <script src='scripts/main.js'></script>
 
+
     <script type="text/javascript">
 
             $(document).ready(function(){
@@ -68,6 +69,7 @@
             <!-- <li><a id='members' href='members.php'>MEMBERS</a></li> -->
             <li><a id='subteams' href='subteams.html'>SUBTEAMS</a></li>
             <li><a id='sponsors' href='sponsors.html'>SPONSORS</a></li>
+            <li><a id='members' href='members.html'>MEMBERS</a></li>
             <li><a id='recruitment' href='recruitment.html'>RECRUITMENT</a></li>
             <li><a id='contact' href='contact.html'>CONTACT</a></li>
         </ul>
@@ -124,12 +126,12 @@
     < !-->
 
     <div id = "content">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <h1 class="wider blue"><strong>ABOUT US</strong></h1>
+                <h1 class="col-lg-offset-1 col-md-offset-1 wider blue"><strong>ABOUT US</strong></h1>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 wider">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wider col-lg-offset-1 col-md-offset-1">
 
                         <p class="justify">
                         Engineers Without Borders - Cornell is a group of passionate and highly motivated students who aim to create long-lasting solutions to problems in international communities. Members are given the opportunity to nurture their creative and technical expertise by designing and implementing sustainable engineering projects. Through collaboration with communities in developing countries around the world, our members are exposed to diverse cultures while gaining academic experience outside of the classroom environment.
@@ -142,92 +144,10 @@
                         </p>
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 wider">
-                    <img class="img-fluid" src="images/team.jpg" alt="team">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wider">
+                    <img class="img-fluid" src="images/full_team.jpg" alt="team">
                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-7">
-                    <!-- <?php
-                    if (!isset($_SESSION['logged_user']) && (empty($username) || empty($password))){
-                    ?> -->
-                    <!-- <h1 class="wider blue"><strong>LOGIN</strong></h1>
-                    <form class="login" method="post">
-                        <input type="text" name="username" value="username" class="block">
-                        <input type="password" name="password" value="password" class="block">
-                        <input type="submit" value="Login" name="login">
-                    </form> -->
 
-                    <!-- <?php
-                    } else{
-                        require_once 'includes/config.php';
-
-                        $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-
-                        if ($mysqli->errno) {
-                            print($mysqli->error);
-                            exit();
-                        }
-
-
-                        $result = $mysqli->query('SELECT * FROM Login');
-
-                        if (!$result) {
-                            print($mysqli->error);
-                            exit();
-                        }
-
-                        $verify_password = false;
-                        $verify_username = false;
-                        while (($row = $result->fetch_assoc()) && (!$verify_username) && (!$verify_password)) {
-                            $valid_password = $row['password'];
-                            $valid_username = $row['username'];
-
-                            $verify_password = password_verify($password, $valid_password);
-                            if ($username == $valid_username){
-                                $verify_username = true;
-                            } else{
-                                $verify_username = false;
-                            }
-                        }
-                        if (($verify_username) && ($verify_password)){
-                            $_SESSION['logged_user'] = $username;
-                        } else{
-                            if (!isset($_SESSION['logged_user']) && (!isset($_POST['logout']))){
-                                print('<h1 class="wider blue"><strong>LOGIN</strong></h1>
-                                        <form class="login" method="post">
-                                            <input type="text" name="username" value="username" class="block">
-                                            <input type="password" name="password" value="password" class="block">
-                                            <input type="submit" value="Login" name="login">
-                                        </form>');
-                                print('Sorry, you entered an invalid username and password combination and could not be logged in.');
-                            }
-                        }
-                    }
-                    if(isset($_SESSION['logged_user']) ){
-                        if (!isset($_POST['logout'])){
-                    ?> -->
-
-
-                    <!-- <h1 class="wider blue"><strong>LOGOUT</strong></h1>
-                    <form class="login" method="post">
-                        <input type="submit" value="Logout" name="logout">
-                    </form> -->
-
-                    <!-- <?php
-                    } else{
-                        unset($_SESSION['logged_user']);
-                        unset($_SESSION);
-                        $_SESSION = array();
-                        session_destroy();
-                    ?> -->
-                    <!-- <h1 class="wider blue"><strong>LOGIN</strong></h1>
-                    <form class="login" method="post">
-                        <input type="text" name="username" value="username" class="block">
-                        <input type="password" name="password" value="password" class="block">
-                        <input type="submit" value="Login" name="login">
-                    </form>
-                    <?php
-                        }
-                    }
-                    ?> -->
                 </div>
                 </div>
 
