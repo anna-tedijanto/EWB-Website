@@ -1,25 +1,8 @@
 <!DOCTYPE html>
-<!-- <?php
-    session_start();
-?> -->
 
 <html lang = "en">
 
 <head>
-    <!-- <?php
-        include_once 'includes/common.php';
-        commonHeader();
-        require_once 'includes/config.php';
-        $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-        if ($mysqli->errno) {
-            //The page isn't worth much without a db connection so display the error and quit
-            print($mysqli->error);
-            exit();
-        }
-
-
-
-    ?> -->
 
     <meta charset='utf-8'>
     <title>Engineers Without Borders</title>
@@ -51,9 +34,7 @@
 </head>
 
 <body class="recruitment">
-    <!-- <?php
-        commonTop();
-    ?> -->
+
     <div class='topnav blue'>
         <div class='nav-head'>
             <button type='button' class='nav-toggle center-h'>
@@ -69,7 +50,6 @@
 
         <ul class='nav-right'>
             <li><a id='home' href='index.html'>ABOUT US</a></li>
-            <!-- <li><a id='members' href='members.php'>MEMBERS</a></li> -->
             <li><a id='subteams' href='subteams.html'>SUBTEAMS</a></li>
             <li><a id='sponsors' href='sponsors.html'>SPONSORS</a></li>
             <li><a id='members' href='members.html'>MEMBERS</a></li>
@@ -84,20 +64,10 @@
 
     <div id= "content">
         <div class="container">
-
-        <!-- <?php
-            if( isset($_SESSION['logged_user'])){
-                require_once 'includes/contact_message.php';
-            }
-            else{
-                #require_once 'includes/contact_message.php';
-                require_once 'includes/contact_form.php';
-            }
-        ?> -->
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 centered">
-              <p class="recHead">Recruitment is closed for the 2017-2018 school year. Check back here during Fall 2018 for our next round of applications!</p>
-              <!-- <p class="recruitment">Information Session 1: Wednesday, August 30th from 5-6pm in Phillips 307</p>
+              <!-- <p class="recHead">We're always looking for motivated engineers!</p>
+              <p class="recruitment">Information Session 1: Wednesday, August 30th from 5-6pm in Phillips 307</p>
               <p class="recruitment">Information Session 2: Tuesday, September 5th from 5-6pm in Phillips 307</p>
 
               <p class="recruitment">Application Due: Wednesday, September 6th at 11:59pm to ewbcornell@gmail.com</p>
@@ -105,15 +75,13 @@
                 <a href="./includes/EWB-Team-Member-Application-FA2017.docx">Click here to get the application!</a></p>
               <p class="recruitment">Missed the info session?
                 <a href="./includes/Information-Session-FA2017.pdf">Click here for more about EWB! </a></fetchp> -->
+            <p class="recHead"> Our recruitment is over for the 2017-2018 school year. Check back in Fall 2018 to apply next year! </p>
             </div>
           </div>
 
 
     	</div>
     </div>
-    <!-- <?php
-        commonBottom();
-    ?> -->
 
     <div class='botnav white'>
           <div class='nav-head'>
