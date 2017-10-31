@@ -29,7 +29,7 @@
 @font-face {
     font-family: 'Fira-Sans';
     src: url('../fonts/FiraSans-UltraLightItalic.otf') format('truetype');
-    font-weight: 100;
+    font-weight: lighter;
     font-style: italic;
 }
 
@@ -371,6 +371,10 @@ body{
         }
     }
 
+    strong{
+        font-size: 65px;
+        font-weight:lighter;
+    }
 
 /********************************About page**********************************/
 
@@ -402,7 +406,7 @@ body{
         width: 100%;
         color: #f9f9f9;
         font-family: 'Fira-Sans';
-        font-weight: 100;
+        font-weight: lighter;
     }
 
     .banner{
@@ -412,10 +416,6 @@ body{
         background-position: center 70%;
         background-size: cover;
         height: 550px;
-    }
-    strong{
-        font-weight:lighter;
-        font-size:65px;
     }
 
     .banner h1{
@@ -490,7 +490,7 @@ body{
 
     .team-member-mouseover-box:hover .member-name{
         font-family: 'Fira-Sans';
-        font-weight: 100;
+        font-weight: lighter;
         font-style:italic;
         visibility:visible;
         margin-top:85%;
@@ -575,7 +575,7 @@ body{
         width: 100%;
         color: #f9f9f9;
         font-family: 'Fira-Sans';
-        font-weight: normal;
+        font-weight: lighter;
         margin-top: 0px;
     }
 /********************************Subteam page**********************************/
@@ -601,7 +601,7 @@ body{
         width: 100%;
         color: #f9f9f9;
         font-family: 'Fira-Sans';
-        font-weight: 100;
+        font-weight: lighter;
         margin-top: 0px;
     }
 
