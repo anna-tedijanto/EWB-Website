@@ -496,6 +496,7 @@ body{
         margin-top:85%;
         text-align:center;
         color:#fff;
+        font-size:17px;
     }
 
     .team-member-mouseover-box:hover .team-lead{
@@ -627,6 +628,9 @@ body{
         margin-bottom: 15px;
     }
 
+    .tab-content img {
+        margin-top: 20px;
+    }
     @media (max-width: 991px)
     {
         .subteam-bar{
