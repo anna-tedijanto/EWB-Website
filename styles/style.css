@@ -214,11 +214,11 @@ body{
         /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)*/;
         border-bottom:  1px solid #f2f2f2;
         background-color: #f9f9f9;
-        width: 100%;
+        width: 150%;
         position: fixed;
         top: 0px;
         z-index: 500;
-        height: 80px;
+        height: 85px;
         font-size: 20px;
         padding: 0px;
 
@@ -513,7 +513,7 @@ body{
       cursor: pointer;
       margin-bottom: 30px;
     }
-    
+
 
     .img-responsive {
       display: block;
@@ -835,6 +835,3 @@ body{
 
 
 /***----------------------------------------MEMBERS----------------------------------------***/
-
-
-	
